@@ -1,0 +1,18 @@
+[
+  { "file": "hero.jpg", "slot": "hero", "unsplashId": "photo-1520813792240-56fc4a3765a7", "source": "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7" },
+  { "file": "sorriso-1.jpg", "slot": "sorriso-1", "unsplashId": "photo-1566616213894-2d4e1baee5d8", "source": "https://images.unsplash.com/photo-1566616213894-2d4e1baee5d8" },
+  { "file": "sorriso-2.jpg", "slot": "sorriso-2", "unsplashId": "photo-1618077360395-f3068be8e001", "source": "https://images.unsplash.com/photo-1618077360395-f3068be8e001" },
+  { "file": "sorriso-3.jpg", "slot": "sorriso-3", "unsplashId": "photo-1548142813-c348350df52b", "source": "https://images.unsplash.com/photo-1548142813-c348350df52b" },
+  { "file": "consultorio.jpg", "slot": "consultorio", "unsplashId": "photo-1445527815219-ecbfec67492e", "source": "https://images.unsplash.com/photo-1445527815219-ecbfec67492e" },
+  { "file": "atendimento.jpg", "slot": "atendimento", "unsplashId": "photo-1667133295315-820bb6481730", "source": "https://images.unsplash.com/photo-1667133295315-820bb6481730" },
+  { "file": "tecnologia.jpg", "slot": "tecnologia", "unsplashId": "photo-1600170311833-c2cf5280ce49", "source": "https://images.unsplash.com/photo-1600170311833-c2cf5280ce49" },
+  { "file": "detalhe.jpg", "slot": "detalhe", "unsplashId": "photo-1607613009820-a29f7bb81c04", "source": "https://images.unsplash.com/photo-1607613009820-a29f7bb81c04" },
+  { "file": "calma.jpg", "slot": "calma", "unsplashId": "photo-1606811842243-af7e16970c1f", "source": "https://images.unsplash.com/photo-1606811842243-af7e16970c1f" },
+  { "file": "equipe-1.jpg", "slot": "equipe-1", "unsplashId": "photo-1645830166230-187caf791b90", "source": "https://images.unsplash.com/photo-1645830166230-187caf791b90" },
+  { "file": "equipe-2.jpg", "slot": "equipe-2", "unsplashId": "photo-1627161683077-e34782c24d81", "source": "https://images.unsplash.com/photo-1627161683077-e34782c24d81" },
+  { "file": "equipe-3.jpg", "slot": "equipe-3", "unsplashId": "photo-1628890923662-2cb23c2e0cfe", "source": "https://images.unsplash.com/photo-1628890923662-2cb23c2e0cfe" },
+  { "file": "equipe-4.jpg", "slot": "equipe-4", "unsplashId": "photo-1614023342667-6f060e9d1e04", "source": "https://images.unsplash.com/photo-1614023342667-6f060e9d1e04" },
+  { "file": "recepcao.jpg", "slot": "recepcao", "unsplashId": "photo-1524758631624-e2822e304c36", "source": "https://images.unsplash.com/photo-1524758631624-e2822e304c36" },
+  { "file": "extra-1.jpg", "slot": "extra-1", "unsplashId": "photo-1606811841689-23dfddce3e95", "source": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95" },
+  { "file": "extra-2.jpg", "slot": "extra-2", "unsplashId": "photo-1468493858157-0da44aaf1d13", "source": "https://images.unsplash.com/photo-1468493858157-0da44aaf1d13" }
+]

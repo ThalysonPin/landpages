@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Ao publicar, troque https://seu-dominio/ pelo endereço completo desta página. As demos ficam de fora porque são fictícias. Só funciona na raiz do domínio. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://seu-dominio/</loc></url>
+</urlset>

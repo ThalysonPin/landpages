@@ -1,0 +1,1834 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Estética médica nos Jardins, São Paulo | Nuance Estética</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Estética médica nos Jardins, em São Paulo, com direção de uma dermatologista. Doses que preservam seus traços, avaliação de 50 minutos e plano por escrito.">
+<!-- Demo fictícia: esta linha deixa a demo fora do Google. No site de um cliente de verdade, apague esta linha. -->
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Nuance Estética Avançada · Jardins, São Paulo">
+<meta property="og:description" content="O melhor resultado é o que ninguém aponta. Avaliação de 50 minutos, plano por escrito e retorno em 15 dias incluso.">
+<meta property="og:image" content="assets/og-nuance.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Nuance Estética Avançada: retrato em arco ao lado do título “O melhor resultado é o que ninguém aponta.”">
+<!-- Ao publicar: troque og:image pela URL absoluta (https://seu-dominio/assets/og-nuance.jpg) e acrescente <meta property="og:url" content="https://seu-dominio/">. Sem URL absoluta, o WhatsApp não mostra a imagem na prévia do link. -->
+<meta name="theme-color" content="#EFE6E3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23EFE6E3'/%3E%3Cpath d='M18 54V30a14 14 0 0 1 28 0v24' fill='none' stroke='%237E5568' stroke-width='4'/%3E%3Cpath d='M25 54V31a7 7 0 0 1 14 0v23' fill='none' stroke='%232A1E1C' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:ital,wght@0,300..500;1,300..500&display=swap">
+<style>
+/* ==========================================================================
+   NUANCE ESTÉTICA AVANÇADA
+   Layout concept: a printed beauty editorial. Every section is a spread on an
+   asymmetric 12-col grid: one arch-top cover portrait, Bodoni display set huge
+   and tight with staggered indents, narrow 34ch Jost columns, small caps
+   captions, a footnote under the cover, a dictionary entry for the name, a
+   face that floats on the paper (multiplied into it) for the signature map,
+   and a colophon ("expediente") for a footer. Powder paper, espresso ink,
+   one mauve accent. No cards, no icons-in-squares, no fade-ups.
+   ========================================================================== */
+:root{
+  color-scheme: light;
+  /* paper & ink */
+  --po:#EFE6E3;          /* powder: page */
+  --nevoa:#F7F2F1;       /* lighter surface */
+  --rose:#DCC0BC;        /* soft rose: surfaces, details */
+  --rose-claro:#E7D5D1;  /* rose between po and rose */
+  --cacau:#2A1E1C;       /* espresso ink */
+  --cacau-2:#5A4946;     /* secondary text (6.4:1 on po) */
+  --taupe:#6B5A5F;       /* labels (4.9:1 on po) */
+  --malva:#7E5568;       /* accent: links, active, CTA fill (5.0:1 on po) */
+  --malva-esc:#694556;
+  --prata:#A7A2A6;       /* hairlines, chrome only, never text */
+  --linha:rgba(42,30,28,.14);
+  /* type */
+  --serif:"Bodoni Moda","Bodoni 72","Didot",Georgia,serif;
+  --sans:"Jost","Futura","Century Gothic","Trebuchet MS",sans-serif;
+  --fs-mega:clamp(3.3rem, 1.55rem + 7.1vw, 8.6rem);
+  --fs-h2:clamp(2.4rem, 1.35rem + 3.7vw, 5.2rem);
+  --fs-h3:clamp(1.6rem, 1.2rem + 1.25vw, 2.4rem);
+  --fs-lead:clamp(1.08rem, 1rem + .3vw, 1.3rem);
+  --fs-body:1.0625rem;
+  --fs-sm:.9375rem;
+  --fs-lab:.75rem;
+  /* rhythm */
+  --g:clamp(16px, 4.4vw, 76px);
+  --gap:clamp(12px, 1.9vw, 30px);
+  --sec:clamp(76px, 9vw, 150px);
+  --hd:62px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  --ease-io:cubic-bezier(.65,0,.35,1);
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (min-width:900px){ :root{ --hd:84px; } }
+
+/* ---------- reset (matches the Artifact skeleton) ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:var(--po);color:var(--cacau);font-family:var(--sans);font-size:var(--fs-body);line-height:1.6;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;font-optical-sizing:auto;overflow-x:clip}
+img{max-width:100%;display:block}
+[hidden]{display:none!important}
+h1,h2,h3,h4,h5,p,ul,ol,dl,dd,figure,blockquote{margin:0}
+ul,ol{padding:0;list-style:none}
+a{color:inherit}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0;padding:0}
+h1,h2,h3,h4{font-family:var(--serif);font-weight:400;line-height:1.02;letter-spacing:-.02em;hyphens:manual;text-wrap:balance}
+p,li,dd,blockquote{text-wrap:pretty}
+::selection{background:var(--rose);color:var(--cacau)}
+:focus{outline:none}
+:focus-visible{outline:2px solid var(--malva);outline-offset:3px;border-radius:2px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:90;background:var(--po)}
+html{scroll-padding-top:calc(var(--hd) + env(safe-area-inset-top,0px) + 12px)}
+@media (max-width:1079px){ html{scroll-padding-bottom:calc(124px + env(safe-area-inset-bottom,0px))} }
+.skip:focus{position:fixed!important;top:10px;left:10px;width:auto;height:auto;margin:0;clip:auto;clip-path:none;padding:12px 16px;background:var(--cacau);color:var(--nevoa);z-index:100;font-size:.875rem;text-decoration:none}
+.sr{position:absolute!important;width:1px;height:1px;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0}
+
+/* ---------- layout primitives ---------- */
+.wrap{max-width:1520px;margin-inline:auto;padding-left:max(var(--g), env(safe-area-inset-left,0px));padding-right:max(var(--g), env(safe-area-inset-right,0px))}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap)}
+.grid > *{min-width:0}
+@media (max-width:899px){ .grid > *{grid-column:1 / -1} }
+.lab{font-family:var(--sans);font-size:var(--fs-lab);font-weight:500;letter-spacing:.14em;text-transform:uppercase;line-height:1.4;color:var(--taupe)}
+.cap{font-family:var(--sans);font-size:var(--fs-lab);font-weight:400;letter-spacing:.12em;text-transform:uppercase;line-height:1.5;color:var(--taupe)}
+.lead{font-size:var(--fs-lead);font-weight:350;line-height:1.55;color:var(--cacau-2);max-width:34ch}
+.it{font-style:italic}
+.nb{white-space:nowrap}
+
+/* ---------- buttons & links ---------- */
+.magnet{transition:color .45s var(--ease),translate .7s var(--ease)!important}
+.btn{--bg:var(--malva);--fg:var(--nevoa);position:relative;display:inline-flex;align-items:center;justify-content:center;gap:.9em;min-height:52px;padding:0 1.6em;background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:.8125rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border-radius:1px;overflow:hidden;isolation:isolate;transition:color .45s var(--ease)}
+.btn::before{content:"";position:absolute;inset:0;background:var(--cacau);transform:translateY(101%);transition:transform .55s var(--ease);z-index:-1}
+.btn:hover::before{transform:translateY(0)}
+.btn .arr{width:22px;height:8px;flex:none;transition:transform .45s var(--ease)}
+.btn:hover .arr{transform:translateX(4px)}
+.btn--ghost{--bg:transparent;--fg:var(--cacau);box-shadow:inset 0 0 0 1px rgba(42,30,28,.35)}
+.btn--ghost:hover{color:var(--nevoa)}
+.btn--claro{--bg:var(--nevoa);--fg:var(--cacau)}
+.btn--claro::before{background:var(--rose)}
+.lnk{position:relative;display:inline-flex;align-items:center;gap:.6em;font-size:.8125rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;color:var(--cacau);padding-block:.9em}
+.lnk::after{content:"";position:absolute;left:0;right:0;bottom:.6em;height:1px;background:currentColor;transform-origin:left;transform:scaleX(.35);transition:transform .5s var(--ease)}
+@media (hover:none){ .lnk::after{transform:scaleX(1)} }
+.lnk:hover::after{transform-origin:left;transform:scaleX(1)}
+
+/* ---------- header ---------- */
+.hd{position:sticky;top:env(safe-area-inset-top,0px);z-index:80;background:var(--po);transition:box-shadow .4s var(--ease)}
+.hd.is-scrolled{box-shadow:0 1px 0 var(--linha)}
+.hd-in{display:flex;align-items:center;justify-content:space-between;gap:24px;height:var(--hd)}
+.brand{display:inline-flex;align-items:center;gap:12px;text-decoration:none;color:var(--cacau);min-height:44px}
+.brand-n{font-family:var(--serif);font-style:italic;font-size:30px;line-height:1;letter-spacing:-.015em;font-weight:400;padding-bottom:3px}
+.brand-s{display:block;padding-left:12px;border-left:1px solid var(--prata);font-size:.75rem;font-weight:500;letter-spacing:.15em;line-height:1.3;text-transform:uppercase;color:var(--taupe)}
+.nav{display:none}
+.hd-cta{display:none}
+.menu-btn{display:inline-flex;align-items:center;gap:10px;min-height:44px;min-width:44px;padding:0 2px 0 8px;font-size:.75rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--cacau)}
+.menu-btn i{position:relative;display:block;width:24px;height:9px}
+.menu-btn i::before,.menu-btn i::after{content:"";position:absolute;left:0;right:0;height:1px;background:currentColor;transition:transform .45s var(--ease)}
+.menu-btn i::before{top:0}
+.menu-btn i::after{bottom:0;left:8px}
+@media (min-width:1080px){
+  .brand-n{font-size:34px}
+  .nav{display:flex;gap:clamp(18px,2.2vw,36px);margin-left:auto}
+  .nav a{position:relative;font-size:.9375rem;font-weight:400;text-decoration:none;color:var(--cacau);padding-block:10px}
+  .nav a::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:1px;background:var(--malva);transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+  .nav a:hover::after,.nav a[aria-current="true"]::after{transform:scaleX(1);transform-origin:left}
+  .nav a[aria-current="true"]{color:var(--malva)}
+  .hd-cta{display:inline-flex;min-height:46px;margin-left:clamp(12px,1.6vw,28px)}
+  .menu-btn{display:none}
+}
+
+/* ---------- mobile menu ---------- */
+.menu{position:fixed;inset:0;z-index:85;background:var(--po);display:flex;flex-direction:column;padding-top:calc(env(safe-area-inset-top,0px) + var(--hd));padding-bottom:calc(env(safe-area-inset-bottom,0px) + 24px);clip-path:inset(0 0 100% 0);visibility:hidden;transition:clip-path .7s var(--ease-io),visibility 0s linear .7s}
+.menu.is-open{clip-path:inset(0 0 0 0);visibility:visible;transition:clip-path .7s var(--ease-io),visibility 0s}
+.menu-top{position:absolute;top:env(safe-area-inset-top,0px);left:0;right:0}
+.menu > .wrap{width:100%}
+.menu-list{flex:1;display:flex;flex-direction:column;justify-content:center;gap:2px;padding-block:24px}
+.menu-list a{display:flex;align-items:baseline;justify-content:space-between;gap:16px;font-family:var(--serif);font-size:clamp(2.3rem,10vw,3.4rem);line-height:1.15;letter-spacing:-.02em;text-decoration:none;color:var(--cacau);padding-block:4px}
+.menu-list a span{font-style:normal;font-family:var(--sans);font-size:var(--fs-lab);letter-spacing:.14em;text-transform:uppercase;color:var(--taupe);white-space:nowrap}
+@media (max-width:374px){ .menu-list a{font-size:2.05rem} }
+.menu-list a:nth-child(even){font-style:italic}
+.menu-foot{display:grid;gap:18px;padding-top:22px;border-top:1px solid var(--linha)}
+.menu-foot p{font-size:var(--fs-sm);color:var(--cacau-2);line-height:1.5}
+.menu-foot .btn{width:100%}
+.menu-close i::before{transform:translateY(4px) rotate(45deg)}
+.menu-close i::after{left:0;transform:translateY(-4px) rotate(-45deg)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding-block:clamp(22px,3vw,40px) clamp(28px,3.5vw,52px)}
+.hero-kicker{display:flex;align-items:center;gap:14px;margin-bottom:clamp(18px,3vw,40px)}
+.hero-kicker::after{content:"";flex:0 1 120px;height:1px;background:var(--prata)}
+.hero-h1{font-size:var(--fs-mega);line-height:.94;letter-spacing:-.03em;font-weight:400;text-wrap:initial}
+.hero-h1 .ln{display:block;overflow:hidden;padding:0 .12em .1em 0;margin-bottom:-.1em}
+.hero-h1 .ln > span{display:block}
+.hero-h1 .ln:nth-child(2){padding-left:.9em}
+.hero-h1 .ln:nth-child(4){padding-left:2.1em}
+.hero-h1 em{font-style:italic;font-weight:400;letter-spacing:-.035em}
+.hero-h1 sup{font-family:var(--sans);font-style:normal;font-size:max(12px,.15em);font-weight:500;letter-spacing:0;vertical-align:top;position:relative;top:.55em;margin-left:.15em;color:var(--malva)}
+.hero-h1 sup a{position:relative;text-decoration:none;display:inline-block;padding:.55em .6em;margin:-.25em -.3em}
+.hero-h1 sup a::after{content:"";position:absolute;left:50%;top:50%;width:44px;height:44px;transform:translate(-50%,-50%)}
+.hero-fig{position:relative;margin:0}
+.arch{position:relative;aspect-ratio:4/5;border-radius:50% 50% 0 0 / 40% 40% 0 0;overflow:hidden;background:var(--rose)}
+.arch img{position:absolute;left:0;top:-4%;width:100%;height:108%;object-fit:cover;object-position:50% 44%;filter:contrast(1.1) brightness(1.03);mix-blend-mode:multiply}
+.hero-note{display:flex;gap:10px;margin-top:14px;font-size:var(--fs-sm);line-height:1.5;color:var(--cacau-2);max-width:40ch}
+.hero-note b{font-weight:500;color:var(--malva)}
+.hero-sub{margin-top:clamp(26px,3.4vw,44px)}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin-top:clamp(26px,3vw,40px)}
+.hero-rt{margin-top:clamp(30px,4vw,56px);max-width:44ch}
+.hero-rt .cap{color:var(--taupe)}
+.hero-side{display:none}
+
+@media (max-width:899px){
+  .hero-grid{display:flex;flex-direction:column}
+  .hero-copy{display:contents}
+  .hero-kicker{order:1}
+  .hero-h1{order:2}
+  .hero-fig{order:3}
+  .hero-sub{order:4}
+  .hero-cta{order:5}
+  .hero-rt{order:6}
+  .hero-kicker::after{display:none}
+  .hero-fig{display:grid;grid-template-columns:22px minmax(0,1fr);column-gap:clamp(10px,7vw,56px);margin-top:26px}
+  .hero-fig .arch{grid-column:2;grid-row:1}
+  .hero-side{display:block;grid-column:1;grid-row:1;align-self:start;writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
+  .hero-note{grid-column:2;grid-row:2}
+}
+@media (min-width:600px) and (max-width:899px){
+  .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,min(420px,56%));column-gap:var(--gap);grid-template-rows:auto auto auto auto auto 1fr}
+  .hero-kicker{grid-column:1 / -1;grid-row:1}
+  .hero-h1{grid-column:1 / -1;grid-row:2}
+  .hero-fig{grid-column:2;grid-row:3 / span 4;grid-template-columns:minmax(0,1fr);margin-top:30px}
+  .hero-fig .arch{grid-column:1}
+  .hero-note{grid-column:1}
+  .hero-side{display:none}
+  .hero-sub{grid-column:1;grid-row:4;align-self:start;max-width:30ch;margin-top:36px}
+  .hero-cta{grid-column:1;grid-row:5;flex-direction:column;align-items:flex-start}
+  .hero-rt{grid-column:1;grid-row:6;align-self:start}
+}
+@media (min-width:900px){
+  .hero-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:start}
+  .hero-copy{grid-column:1 / span 8;grid-row:1;position:relative;z-index:2;padding-top:clamp(8px,2vw,40px)}
+  .hero-fig{grid-column:8 / span 5;grid-row:1;margin-top:clamp(0px,1vw,16px)}
+  .hero-sub{max-width:37ch;margin-top:clamp(22px,2.4vw,34px)}
+  .hero-h1{font-size:min(7.35vw,7rem,11.6vh);line-height:.92}
+  .hero-h1 .ln{white-space:nowrap}
+  .hero-side{display:block;position:absolute;left:calc(-1 * var(--gap) - 14px);bottom:0;writing-mode:vertical-rl;transform:rotate(180deg)}
+}
+
+@media (min-width:900px) and (max-height:820px){
+  .hero{padding-top:14px}
+  .hero-copy{padding-top:6px}
+  .hero-kicker{margin-bottom:18px}
+  .hero-sub{margin-top:18px}
+  .hero-cta{margin-top:22px}
+  .hero-rt{margin-top:26px}
+}
+
+/* hero load: one choreographed sequence, CSS only, visible if it never runs */
+@media (prefers-reduced-motion:no-preference){
+  .hero-h1 .ln > span{animation:rise .9s var(--ease) both;animation-delay:calc(.18s + var(--i,0) * .08s)}
+  .arch{animation:wipe 1.15s cubic-bezier(.7,0,.2,1) .05s both}
+  .arch img{animation:settle 1.4s var(--ease) both}
+  .hero-sub,.hero-cta,.hero-rt,.hero-note,.hero-kicker{animation:fade .7s var(--ease) both;animation-delay:.62s}
+  .hero-kicker{animation-delay:.1s}
+}
+@keyframes rise{from{transform:translate3d(0,112%,0)}to{transform:none}}
+@keyframes wipe{from{clip-path:inset(100% 0 0 0)}to{clip-path:inset(0 0 0 0)}}
+@keyframes settle{from{scale:1.06}to{scale:1}}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+
+/* ---------- section heads ---------- */
+.sec{padding-block:var(--sec)}
+.h2{font-size:var(--fs-h2);line-height:1;letter-spacing:-.025em}
+.h2 em{font-style:italic;letter-spacing:-.03em}
+.kick{display:flex;align-items:center;gap:12px;margin-bottom:clamp(18px,2.4vw,30px)}
+.h2.tx-title{font-size:var(--fs-mega);line-height:.92;letter-spacing:-.03em}
+.h2.faq-t{font-size:clamp(2rem,1.4rem + 2vw,3.4rem);line-height:1.04}
+.kick::before{content:"";flex:none;width:9px;height:12px;border:1px solid var(--malva);border-bottom:0;border-radius:5px 5px 0 0;transform:translateY(-1px)}
+
+/* ---------- regras da casa ---------- */
+.regras.sec{padding-bottom:calc(var(--sec) * .4)}
+.regras-head .lead{margin-top:clamp(20px,2.4vw,32px)}
+.regras-list{margin-top:clamp(44px,6vw,72px)}
+.regra{display:grid;grid-template-columns:minmax(0,1fr);gap:10px;padding-block:clamp(24px,3vw,40px);border-top:1px solid var(--linha)}
+.regra:last-child{border-bottom:1px solid var(--linha)}
+.regra .lab{color:var(--malva)}
+.regra h3{font-size:var(--fs-h3);line-height:1.08;letter-spacing:-.02em}
+.regra p:not(.lab){font-size:var(--fs-sm);line-height:1.6;color:var(--cacau-2);max-width:46ch}
+@media (min-width:900px){
+  .regras .grid{align-items:start}
+  .regras-head{grid-column:1 / span 5;position:sticky;top:calc(var(--hd) + 48px)}
+  .regras-list{grid-column:7 / span 6;margin-top:0}
+  .regra{grid-template-columns:minmax(0,9fr) minmax(0,21fr);column-gap:var(--gap);row-gap:14px}
+  .regra .lab{grid-column:1;grid-row:1 / span 2;padding-top:.75em}
+  .regra h3{grid-column:2}
+  .regra p:not(.lab){grid-column:2}
+}
+
+/* ---------- verbete (textura band) ---------- */
+.verbete{position:relative;background:var(--po)}
+.verbete-fig{position:relative;overflow:hidden;height:clamp(260px,40vw,600px);background:var(--po)}
+.verbete-fig img{width:100%;height:100%;object-fit:cover;object-position:56% 60%;mix-blend-mode:multiply;filter:brightness(1.09) contrast(1.06)}
+.verbete-txt{padding-block:28px 8px}
+.verbete-word{font-family:var(--serif);font-style:italic;font-size:clamp(3rem,2rem + 4.4vw,6.6rem);line-height:1;letter-spacing:-.03em}
+.verbete-word span{color:var(--taupe);font-style:normal;padding-inline:.04em}
+.verbete-class{margin-top:12px}
+.verbete-def{margin-top:18px;display:grid;gap:10px;counter-reset:def;max-width:36ch}
+.verbete-def li{position:relative;padding-left:1.7em;font-size:var(--fs-lead);line-height:1.45;font-weight:350;color:var(--cacau-2)}
+.verbete-def li::before{counter-increment:def;content:counter(def) ".";position:absolute;left:0;top:.05em;font-family:var(--serif);font-style:italic;color:var(--malva)}
+@media (min-width:900px){
+  .verbete-txt{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;padding-block:0;pointer-events:none}
+  .verbete-txt > *{max-width:min(31%,440px)}
+  .verbete-fig{height:clamp(260px,34vw,520px)}
+  .verbete-fig img{object-position:72% 50%}
+}
+@media (min-width:1600px){
+  /* wide screens: a little more height so the whole stroke stays in the band */
+  .verbete-fig{height:clamp(260px,34vw,600px)}
+  .verbete-fig img{object-position:66% 60%}
+}
+@media (max-width:899px){
+  /* phones: the stroke fills the width and the word tucks under its tail */
+  .verbete-fig{height:min(64vw,300px)}
+  .verbete-fig img{transform:scale(1.75);transform-origin:53% 50%}
+  .verbete-txt{position:relative;margin-top:-28px}
+}
+
+/* ---------- mapa facial (signature) ---------- */
+.mapa{background:var(--nevoa)}
+.mapa-head{display:grid;gap:22px}
+.mapa-head .lead{max-width:38ch}
+.mapa-body{display:grid;gap:clamp(20px,3vw,40px);margin-top:clamp(28px,4vw,56px)}
+.mp-photo{position:relative;width:100%;max-width:560px;aspect-ratio:4/5;margin-inline:auto}
+.mp-photo img{width:100%;height:100%;mix-blend-mode:multiply;filter:brightness(1.035);-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 7%,#000 76%,transparent 99%),linear-gradient(to right,transparent 0,#000 16%,#000 88%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,transparent 0,#000 7%,#000 76%,transparent 99%),linear-gradient(to right,transparent 0,#000 16%,#000 88%,transparent 100%);mask-composite:intersect}
+.mp-hint{position:absolute;left:0;bottom:2%;display:flex;align-items:center;gap:10px;color:var(--cacau-2)}
+.mp-hint::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--nevoa);box-shadow:0 0 0 1.5px var(--malva)}
+.hs{position:absolute;left:calc(var(--x) * 1%);top:calc(var(--y) * 1%);width:44px;height:44px;margin:-22px 0 0 -22px;border-radius:50%;display:grid;place-items:center;z-index:2;-webkit-tap-highlight-color:transparent}
+.hs::before{content:"";width:11px;height:11px;border-radius:50%;background:var(--nevoa);box-shadow:0 0 0 1.5px var(--malva),0 1px 6px rgba(42,30,28,.25);transition:transform .45s var(--ease),background .3s}
+.hs::after{content:"";position:absolute;inset:11px;border-radius:50%;border:1px solid rgba(247,242,241,.9);opacity:0;pointer-events:none}
+.hs:hover::before{transform:scale(1.25)}
+.hs[aria-pressed="true"]::before{background:var(--malva);box-shadow:0 0 0 2.5px var(--nevoa),0 0 0 4px var(--malva),0 2px 10px rgba(42,30,28,.35);transform:scale(1.15)}
+.hs[aria-pressed="true"]::after{opacity:1;transform:scale(1.5);border:1.5px solid var(--nevoa);box-shadow:0 0 0 1.5px var(--malva)}
+.hs:focus-visible{outline:2px solid var(--nevoa);outline-offset:0;box-shadow:0 0 0 4px var(--malva);border-radius:50%}
+/* the dots wait for the face: never nine points floating on an empty box */
+.js .mp-photo .hs{transition:opacity .45s var(--ease)}
+.js .mp-photo:not(.is-ready) .hs{opacity:0}
+.hs-l{display:none;position:absolute;top:50%;left:calc(100% - 6px);transform:translateY(-50%);white-space:nowrap;padding:5px 9px;background:var(--nevoa);color:var(--cacau);font-size:.75rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;line-height:1.2;opacity:0;pointer-events:none;transition:opacity .3s var(--ease),transform .4s var(--ease)}
+.hs--l .hs-l{left:auto;right:calc(100% - 6px)}
+.hs-l::before{content:"";position:absolute;top:50%;width:14px;height:1px;background:var(--malva);right:100%}
+.hs--l .hs-l::before{right:auto;left:100%}
+@media (hover:hover) and (min-width:900px){
+  .hs:hover .hs-l,.hs:focus-visible .hs-l,.hs[aria-pressed="true"] .hs-l{opacity:1}
+  .hs-l{display:block;left:calc(100% + 8px)}
+  .hs--l .hs-l{right:calc(100% + 8px)}
+}
+@media (prefers-reduced-motion:no-preference){
+  /* one point at a time, travelling down the face; stops after the first interaction */
+  .hs::after{animation:pulse 6.3s var(--ease) infinite;animation-delay:calc(var(--d,0) * .7s)}
+  .hs[aria-pressed="true"]::after,.mp-photo.is-touched .hs::after{animation:none}
+}
+@keyframes pulse{0%{transform:scale(.7);opacity:0}5%{opacity:.8}16%,100%{transform:scale(1.9);opacity:0}}
+@media (max-width:599px){
+  /* phones: the face fills the screen so neighbouring points sit a thumb apart */
+  .mp-stage{position:relative;overflow:hidden;aspect-ratio:5/6;margin-left:calc(-1 * max(var(--g), env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(var(--g), env(safe-area-inset-right,0px)))}
+  .mp-photo{width:150%;max-width:none;margin:-27% 0 0 -25%}
+  /* the oval keeps the hair from ending in a flat band at the top of the stage */
+  .mp-photo img{-webkit-mask-image:linear-gradient(to bottom,transparent 14.4%,#000 23%,#000 65%,transparent 78.4%),radial-gradient(ellipse 40% 35% at 50% 49%,#000 70%,transparent 100%);mask-image:linear-gradient(to bottom,transparent 14.4%,#000 23%,#000 65%,transparent 78.4%),radial-gradient(ellipse 40% 35% at 50% 49%,#000 70%,transparent 100%)}
+  .mp-photo .mp-hint{display:none}
+}
+@media (min-width:600px){ .mp-stage{display:contents} }
+
+.mp-panel{position:relative;min-width:0}
+.mp-top{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-bottom:16px;border-bottom:1px solid var(--linha)}
+.mp-zone{font-size:.8125rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--malva)}
+.mp-nav{display:flex;align-items:center;gap:4px;flex:none}
+.mp-nav button{width:44px;height:44px;display:grid;place-items:center;color:var(--cacau);border-radius:50%;transition:background .3s}
+.mp-nav button:hover{background:var(--rose-claro)}
+.mp-nav svg{width:18px;height:10px}
+.mp-count{font-size:.8125rem;font-variant-numeric:tabular-nums;color:var(--taupe);min-width:3.2em;text-align:center}
+.mp-swap{transition:opacity .35s var(--ease),transform .5s var(--ease)}
+.mp-swap.is-out{opacity:0;transform:translateY(8px)}
+.mp-said{margin-top:clamp(20px,2.4vw,30px)}
+.mp-said + .mp-quote{margin-top:10px}
+.mp-quote{margin-top:clamp(20px,2.4vw,30px);font-family:var(--serif);font-size:clamp(1.75rem,1.3rem + 1.5vw,2.75rem);line-height:1.08;letter-spacing:-.02em;text-wrap:balance}
+.mp-note{margin-top:16px;color:var(--cacau-2);max-width:48ch;font-size:var(--fs-sm);line-height:1.65}
+.mp-opts{display:flex;flex-wrap:wrap;gap:0 22px;margin-top:clamp(22px,2.4vw,30px)}
+.mp-opts .lab{width:100%;margin-bottom:-2px}
+.mp-opt{position:relative;min-height:44px;font-family:var(--serif);font-size:1.3rem;line-height:1.1;letter-spacing:-.01em;color:var(--taupe);text-align:left;padding-block:6px;transition:color .3s}
+.mp-opt::after{content:"";position:absolute;left:0;right:0;bottom:4px;height:1px;background:var(--malva);transform:scaleX(0);transform-origin:left;transition:transform .45s var(--ease)}
+.mp-opt:hover{color:var(--cacau)}
+.mp-opt[aria-pressed="true"]{color:var(--cacau);font-style:italic}
+.mp-opt[aria-pressed="true"]::after{transform:scaleX(1)}
+button.mp-opt::before{content:"";display:inline-block;width:9px;height:9px;margin-right:10px;border-radius:50%;box-shadow:0 0 0 1px currentColor;vertical-align:.18em;transition:background .3s,box-shadow .3s}
+button.mp-opt::after{left:19px}
+button.mp-opt[aria-pressed="true"]::before{background:var(--malva);box-shadow:0 0 0 1px var(--malva)}
+.mp-spec{margin-top:14px;display:grid}
+.mp-spec div{display:grid;grid-template-columns:minmax(0,10fr) minmax(0,15fr);gap:16px;padding-block:12px;border-top:1px solid var(--linha)}
+.mp-spec div:last-child{border-bottom:1px solid var(--linha)}
+.mp-spec dt{font-size:.75rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);padding-top:.25em}
+.mp-spec dd{font-size:var(--fs-sm);line-height:1.5;color:var(--cacau)}
+.mp-fine{margin-top:14px;font-size:.8125rem;line-height:1.5;color:var(--taupe)}
+.mp-cta{margin-top:clamp(22px,2.6vw,32px)}
+@media (max-width:520px){ .mp-cta{width:100%;letter-spacing:.085em;padding:0 14px;gap:.6em} .mp-cta .arr{display:none} }
+@media (min-width:900px){
+  .mapa-head{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:end}
+  .mapa-head > div{grid-column:1 / span 7}
+  .mapa-head .lead{grid-column:9 / span 4;padding-bottom:.6em}
+  .mapa-body{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:start}
+  .mp-photo{grid-column:1 / span 6;max-width:none;width:min(100%, calc((100svh - var(--hd) - 72px) * .8));margin-inline:0 auto;position:sticky;top:calc(var(--hd) + 24px);align-self:start}
+  .mp-panel{grid-column:8 / span 5;padding-top:clamp(8px,2vw,40px)}
+}
+
+/* ---------- tratamentos (index) ---------- */
+.tx-head{display:grid;gap:20px}
+.tx-group{margin-top:clamp(48px,6vw,88px)}
+.tx-ghead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--cacau)}
+.tx-gname{font-family:var(--serif);font-style:italic;font-size:clamp(1.9rem,1.4rem + 1.6vw,3rem);line-height:1;letter-spacing:-.02em}
+.tx-cols{display:none}
+.tx-row{position:relative;display:grid;grid-template-columns:minmax(0,1fr);gap:4px;padding-block:18px 16px}
+.tx-row + .tx-row{border-top:1px solid var(--linha)}
+.tx-name{font-size:clamp(1.55rem,1.1rem + 1.8vw,3.05rem);line-height:1.04;letter-spacing:-.02em;transition:transform .6s var(--ease),color .4s}
+.tx-for{font-size:var(--fs-sm);color:var(--cacau-2);line-height:1.5;margin-top:4px}
+.tx-meta{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:6px;font-size:.8125rem;color:var(--taupe);letter-spacing:.02em}
+.tx-meta b{font-weight:500;letter-spacing:.12em;text-transform:uppercase;font-size:.75rem;margin-right:6px}
+@media (max-width:899px){
+  /* phones: every row gets the same label/value block, and the group name stays pinned while its rows scroll */
+  .tx-meta{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);gap:2px 16px;margin-top:10px;font-size:.9375rem;letter-spacing:0}
+  .tx-meta > span{display:block;color:var(--cacau-2)}
+  .tx-meta b{display:block;margin:0 0 2px;color:var(--taupe)}
+  .tx-ghead{position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--hd));z-index:5;background:var(--po);padding-top:12px}
+}
+.tx-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:18px 32px;margin-top:clamp(48px,6vw,80px);padding-top:28px;border-top:1px solid var(--linha)}
+.tx-foot p{font-family:var(--serif);font-size:clamp(1.4rem,1.15rem + .9vw,2rem);line-height:1.15;letter-spacing:-.015em;max-width:30ch}
+.tx-prev{position:fixed;left:0;top:0;width:min(220px,17vw);aspect-ratio:4/5;z-index:30;pointer-events:none;overflow:hidden;opacity:0;scale:.92;transition:opacity .35s var(--ease),scale .5s var(--ease);background:var(--rose)}
+.tx-prev.is-on{opacity:1;scale:1}
+.tx-prev img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .35s}
+.tx-prev.is-duo img{filter:grayscale(1) contrast(1.12) brightness(1.06);mix-blend-mode:multiply}
+@media (min-width:900px){
+  .tx-head{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:end}
+  .tx-head > div{grid-column:1 / span 7}
+  .tx-head .lead{grid-column:9 / span 4;padding-bottom:.5em}
+  .tx{--txcols:minmax(0,12fr) minmax(0,7fr) minmax(0,3fr) minmax(0,5fr)}
+  .tx-cols{display:grid;grid-template-columns:var(--txcols);gap:var(--gap);padding-top:14px}
+  .tx-cols span:first-child{grid-column:2}
+  .tx-row{grid-template-columns:var(--txcols);column-gap:var(--gap);align-items:baseline;padding-block:20px 18px}
+  .tx-for{margin-top:0}
+  .tx-meta{display:contents}
+  .tx-meta span{font-size:var(--fs-sm);color:var(--cacau)}
+  .tx-meta b{position:absolute;width:1px;height:1px;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+}
+@media (min-width:1080px){
+  /* desktop: the group name becomes a sticky left column, so the long index has a spine */
+  .tx{--txcols:minmax(0,10fr) minmax(0,8fr) minmax(0,3fr) minmax(0,6fr)}
+  .tx-group{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap)}
+  .tx-ghead{grid-column:1 / span 3;grid-row:1 / span 2;align-self:start;position:sticky;top:calc(var(--hd) + 32px);flex-direction:column;align-items:flex-start;gap:8px;border-bottom:0;border-top:1px solid var(--cacau);padding:14px 0 0}
+  .tx-gname{font-size:clamp(2.6rem,1.6rem + 2.4vw,4.2rem)}
+  .tx-cols{grid-column:4 / -1;grid-row:1;border-top:1px solid var(--cacau)}
+  .tx-list{grid-column:4 / -1;grid-row:2}
+  .tx-name{font-size:clamp(1.55rem,1rem + 1.5vw,2.6rem)}
+}
+@media (hover:hover) and (pointer:fine){
+  .tx-list:hover .tx-row .tx-name{color:var(--taupe)}
+  .tx-list .tx-row:hover .tx-name{color:var(--malva);transform:translateX(18px)}
+}
+
+/* ---------- antes de qualquer agulha (rose spread) ---------- */
+.etapas{background:var(--rose)}
+.etapas .lab,.etapas .cap{color:var(--cacau-2)}
+.etapas .kick::before{border-color:var(--cacau)}
+.et-head{display:grid;gap:clamp(22px,3vw,40px)}
+.et-head .lead{color:var(--cacau-2)}
+#et-t{font-size:clamp(3.2rem,1rem + 6.5vw,7.5rem);line-height:.94;letter-spacing:-.03em}
+#et-t em{display:block;padding-left:1.4em}
+.et-fig{position:relative;margin:0}
+.et-frame{position:relative;overflow:hidden;aspect-ratio:4/3;background:var(--rose)}
+.et-frame img{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover;object-position:50% 40%;filter:grayscale(1) contrast(1.18) brightness(1.08);mix-blend-mode:multiply}
+@media (max-width:599px){ .et-frame{aspect-ratio:4/5} .et-frame img{object-position:58% 45%} }
+@media (min-width:600px) and (max-width:899px){ .et-frame{aspect-ratio:5/4} .et-frame img{object-position:58% 45%} }
+.et-fig figcaption{margin-top:12px}
+.et-track{position:relative;margin-top:clamp(48px,6vw,88px)}
+.et-steps{display:grid;gap:34px;position:relative}
+.et-rail{position:absolute;left:21px;top:12px;bottom:12px;width:1px;background:rgba(42,30,28,.22)}
+.et-rail i{position:absolute;inset:0;background:var(--cacau);transform-origin:top;transform:scaleY(var(--p,0))}
+.et-step{position:relative;display:grid;grid-template-columns:44px minmax(0,1fr);column-gap:18px;align-content:start}
+.et-step:last-child::before{content:"";position:absolute;left:20px;top:44px;bottom:-16px;width:3px;background:var(--rose)}
+.et-num{grid-row:1 / span 3;position:relative;z-index:1;width:44px;height:44px;display:grid;place-items:center;border-radius:50%;background:var(--rose);box-shadow:inset 0 0 0 1px var(--cacau);font-family:var(--serif);font-style:italic;font-size:1.35rem;line-height:1;color:var(--cacau)}
+.et-step h3{font-size:clamp(1.6rem,1.25rem + 1.2vw,2.3rem);line-height:1.05;padding-top:4px}
+.et-when{margin-top:8px}
+.et-step p:last-child{margin-top:10px;font-size:var(--fs-sm);line-height:1.6;color:var(--cacau-2);max-width:40ch}
+@media (min-width:900px){
+  .et-head{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);row-gap:clamp(28px,3.4vw,56px);align-items:start}
+  .et-title{grid-column:1 / -1}
+  .et-head .lead{grid-column:1 / span 5;grid-row:2;align-self:end;padding-bottom:4px}
+  .et-fig{grid-column:7 / span 6;grid-row:2}
+  .et-steps{grid-template-columns:repeat(4,minmax(0,1fr));column-gap:var(--gap)}
+  .et-rail{left:22px;right:calc((100% - 3 * var(--gap)) / 4 - 22px);top:21px;bottom:auto;width:auto;height:1px}
+  .et-step:last-child::before{display:none}
+  .et-rail i{transform-origin:left;transform:scaleX(var(--p,0))}
+  .et-step{grid-template-columns:minmax(0,1fr);row-gap:0}
+  .et-num{grid-row:auto;margin-bottom:26px}
+  .et-step h3{padding-top:0}
+}
+@media (min-width:600px) and (max-width:899px){
+  .et-steps{grid-template-columns:1fr 1fr;column-gap:var(--gap);row-gap:44px}
+  .et-rail,.et-step:last-child::before{display:none}
+}
+
+/* ---------- a clínica (collage) ---------- */
+.cl-grid{display:grid;gap:clamp(28px,4vw,48px)}
+.cl-fig{position:relative;margin:0;min-width:0}
+.cl-frame{position:relative;overflow:hidden;background:var(--rose-claro)}
+.cl-frame img{position:absolute;left:0;top:-6%;width:100%;height:112%;object-fit:cover}
+.cl-fig figcaption{margin-top:10px}
+.cl-a .cl-frame{aspect-ratio:4/5}
+.cl-a img{object-position:57% 40%}
+.cl-b .cl-frame{aspect-ratio:3/2}
+.cl-b img{object-position:31% 50%}
+.cl-text .lead{margin-top:20px}
+.cl-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px var(--gap);margin-top:clamp(30px,4vw,48px)}
+.cl-facts div{padding-top:14px;border-top:1px solid var(--linha);min-width:0}
+.cl-facts dt{font-family:var(--serif);font-size:clamp(1.7rem,1.3rem + 1.4vw,2.6rem);line-height:1;letter-spacing:-.02em}
+.cl-facts dt em{font-style:italic}
+.cl-facts dd{margin-top:8px;font-size:var(--fs-sm);line-height:1.5;color:var(--cacau-2)}
+.cl-pair{display:grid;grid-template-columns:minmax(0,1fr)}
+@media (min-width:600px) and (max-width:899px){ .cl-a .cl-frame{aspect-ratio:5/4} }
+@media (min-width:900px){
+  .cl-grid{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);row-gap:0;align-items:start}
+  .cl-pair{display:contents}
+  .cl-a{grid-column:1 / span 6;grid-row:1 / span 2;align-self:stretch;display:flex;flex-direction:column}
+  .cl-a .cl-frame{flex:1;aspect-ratio:auto;min-height:520px}
+  .cl-text{grid-column:8 / span 5;grid-row:1;padding-bottom:clamp(40px,5vw,72px)}
+  .cl-b{grid-column:8 / span 5;grid-row:2;align-self:end}
+  .clinica{padding-bottom:calc(var(--sec) * .55)}
+}
+/* small laptops: the 5-column text block is narrow, so the facts and the heading scale down to stay inside it */
+@media (min-width:900px) and (max-width:1279px){
+  .cl-facts dt{font-size:clamp(1.5rem,.2rem + 2.2vw,2.3rem)}
+  #cl-t{font-size:calc(var(--fs-h2) * .9)}
+}
+
+/* ---------- equipe ---------- */
+.eq-head{display:grid;gap:20px}
+.eq-list{display:grid;gap:clamp(36px,5vw,56px);margin-top:clamp(40px,5vw,72px)}
+.eq{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:18px;align-items:start;min-width:0}
+.eq-photo{position:relative;overflow:hidden;aspect-ratio:4/5;background:var(--rose)}
+.eq-photo img{width:100%;height:100%;object-fit:cover;object-position:50% 28%;filter:grayscale(1) contrast(1.06) brightness(1.02);transition:scale 1.2s var(--ease)}
+.eq-photo::after{content:"";position:absolute;inset:0;background:var(--rose);mix-blend-mode:multiply;opacity:.38;pointer-events:none}
+.eq:hover .eq-photo img{scale:1.03}
+.eq-txt{min-width:0}
+.eq-name{font-size:clamp(1.45rem,1.15rem + 1vw,2.15rem);line-height:1.05}
+.eq-role{margin-top:8px;font-size:var(--fs-sm);line-height:1.45;color:var(--cacau)}
+.eq-reg{margin-top:6px;color:var(--taupe);letter-spacing:.08em}
+.eq-say{margin-top:14px;font-size:var(--fs-sm);line-height:1.6;color:var(--cacau-2);max-width:38ch}
+@media (max-width:899px){
+  .eq{grid-template-columns:minmax(0,5fr) minmax(0,7fr);grid-template-rows:auto auto auto 1fr auto;column-gap:18px;row-gap:0}
+  .eq-txt{display:contents}
+  .eq-photo{grid-column:1;grid-row:1 / 5}
+  .eq-name{grid-column:2;grid-row:1}
+  .eq-role{grid-column:2;grid-row:2}
+  .eq-reg{grid-column:2;grid-row:3}
+  .eq-say{grid-column:1 / -1;grid-row:5;margin-top:18px;max-width:none}
+}
+@media (min-width:900px){
+  .eq-head{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:end}
+  .eq-head > div{grid-column:1 / span 7}
+  .eq-head .lead{grid-column:9 / span 4;padding-bottom:.5em}
+  .eq-list{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap)}
+  .eq{grid-template-columns:minmax(0,1fr);gap:0}
+  .eq{align-content:start}
+  .eq:nth-child(1){grid-column:1 / span 4}
+  .eq:nth-child(2){grid-column:5 / span 4;margin-top:clamp(60px,8vw,128px)}
+  .eq:nth-child(3){grid-column:9 / span 4;margin-top:clamp(24px,3vw,48px)}
+  .eq-txt{padding-top:20px}
+}
+
+/* ---------- perguntas ---------- */
+.faq{background:var(--nevoa)}
+.faq-list{margin-top:clamp(36px,5vw,56px);border-top:1px solid var(--cacau)}
+.faq-item{border-bottom:1px solid var(--linha)}
+.faq-q{margin:0;font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:normal}
+.faq-q button{display:grid;grid-template-columns:minmax(0,1fr) 40px;align-items:center;gap:20px;width:100%;min-height:72px;padding-block:22px;text-align:left;font-family:var(--serif);font-size:clamp(1.45rem,1.15rem + 1.1vw,2.3rem);line-height:1.12;letter-spacing:-.02em;color:var(--cacau);transition:color .3s}
+.faq-q button:hover{color:var(--malva)}
+.faq-ico{position:relative;width:40px;height:40px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(42,30,28,.3);transition:background .4s var(--ease),box-shadow .4s}
+.faq-ico::before,.faq-ico::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:1px;margin-left:-7px;background:currentColor;transition:transform .5s var(--ease)}
+.faq-ico::after{transform:rotate(90deg)}
+.faq-q button[aria-expanded="true"]{color:var(--malva)}
+.faq-q button[aria-expanded="true"] .faq-ico{background:var(--malva);box-shadow:none;color:var(--nevoa)}
+.faq-q button[aria-expanded="true"] .faq-ico::after{transform:rotate(0)}
+.faq-a{display:grid;grid-template-rows:1fr;transition:grid-template-rows .55s var(--ease)}
+.js .faq-item:not(.is-open) .faq-a{grid-template-rows:0fr}
+.faq-a > div{overflow:hidden;min-height:0}
+.js .faq-item:not(.is-open) .faq-a > div{visibility:hidden;transition:visibility 0s .55s}
+.faq-item.is-open .faq-a > div{visibility:visible;transition:visibility 0s}
+.faq-a p{padding:0 56px 26px 0;max-width:62ch;color:var(--cacau-2);font-size:var(--fs-body);line-height:1.65}
+@media (min-width:900px){
+  .faq .grid{align-items:start}
+  .faq-head{grid-column:1 / span 4;position:sticky;top:calc(var(--hd) + 48px)}
+  .faq-list{grid-column:6 / span 7;margin-top:0}
+}
+
+/* ---------- agendar ---------- */
+.ag-grid{display:grid;gap:clamp(36px,5vw,56px)}
+.ag-intro .lead{margin-top:20px}
+.ag-facts{display:grid;gap:16px;margin-top:clamp(28px,3vw,40px);padding-top:22px;border-top:1px solid var(--linha);max-width:40ch}
+.ag-facts p{font-size:var(--fs-sm);line-height:1.55;color:var(--cacau-2)}
+.ag-facts .cap{display:block;margin-bottom:2px}
+.card{position:relative;background:var(--nevoa);box-shadow:0 0 0 1px var(--linha),0 24px 48px -36px rgba(42,30,28,.28);min-width:0}
+.card-hd{padding:22px clamp(18px,3vw,36px) 0}
+.card-title{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+.card-title p:first-child{font-family:var(--serif);font-style:italic;font-size:1.45rem;line-height:1.1}
+.prog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin-top:18px}
+.prog li{position:relative;padding-top:12px;font-size:.75rem;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe);line-height:1.3}
+.prog li::before{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--linha)}
+.prog li::after{content:"";position:absolute;left:0;right:0;top:0;height:2px;background:var(--malva);transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease)}
+.prog li.is-done::after,.prog li.is-now::after{transform:scaleX(1)}
+.prog li.is-now{color:var(--cacau)}
+.card-bd{padding:26px clamp(18px,3vw,36px) clamp(22px,3vw,34px)}
+.step{border:0;margin:0;padding:0;min-width:0}
+.step:focus,.step:focus-visible{outline:none}
+.step-legend{font-family:var(--serif);font-size:clamp(1.5rem,1.2rem + 1vw,2.1rem);line-height:1.1;letter-spacing:-.015em;margin-bottom:18px;text-wrap:balance}
+.step legend{padding:0;font-family:var(--serif);font-size:clamp(1.5rem,1.2rem + 1vw,2.1rem);line-height:1.1;letter-spacing:-.015em;margin-bottom:6px}
+.step-help{font-size:var(--fs-sm);color:var(--cacau-2);margin-bottom:18px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;inset:0;margin:0;cursor:pointer}
+.chip label{display:inline-flex;align-items:center;min-height:44px;padding:0 16px;font-size:var(--fs-sm);line-height:1.2;background:transparent;box-shadow:inset 0 0 0 1px rgba(42,30,28,.22);border-radius:1px;cursor:pointer;transition:background .3s,color .3s,box-shadow .3s;user-select:none}
+.chip label:hover{box-shadow:inset 0 0 0 1px var(--cacau)}
+.chip input:checked + label{background:var(--malva);color:var(--nevoa);box-shadow:none}
+.chip input:focus-visible + label{outline:2px solid var(--malva);outline-offset:3px}
+.chip input:disabled + label{color:rgba(42,30,28,.38);box-shadow:inset 0 0 0 1px rgba(42,30,28,.1);cursor:not-allowed;text-decoration:line-through;text-decoration-color:rgba(42,30,28,.35)}
+.regiao{display:flex;align-items:center;gap:10px;margin-top:16px;padding:10px 6px 10px 14px;background:var(--rose-claro);font-size:var(--fs-sm)}
+.regiao b{font-weight:500}
+.regiao button{margin-left:auto;flex:none;white-space:nowrap;min-width:44px;min-height:44px;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:underline;text-underline-offset:3px}
+.days{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(76px,1fr);gap:8px;overflow-x:auto;scroll-snap-type:x mandatory;padding:2px 28px 10px 2px;margin:0 -2px;scrollbar-width:thin;-webkit-mask-image:linear-gradient(to right,#000 88%,transparent);mask-image:linear-gradient(to right,#000 88%,transparent)}
+.day{position:relative;scroll-snap-align:start}
+@media (min-width:900px){ .days{grid-auto-flow:row;grid-template-columns:repeat(6,minmax(0,1fr));overflow:visible;padding-right:2px;-webkit-mask-image:none;mask-image:none} }
+.day input{position:absolute;opacity:0;inset:0;margin:0}
+.day label{display:grid;justify-items:center;gap:2px;padding:12px 6px 11px;box-shadow:inset 0 0 0 1px rgba(42,30,28,.22);cursor:pointer;transition:background .3s,color .3s;user-select:none}
+.day label b{font-weight:500;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase}
+.day label span{font-family:var(--serif);font-size:1.35rem;line-height:1.1}
+.day label small{font-size:.75rem;color:var(--taupe);line-height:1.2}
+.day input:checked + label{background:var(--cacau);color:var(--nevoa);box-shadow:none}
+.day input:checked + label small{color:var(--rose)}
+.day input:focus-visible + label{outline:2px solid var(--malva);outline-offset:3px}
+.day input:disabled + label{cursor:not-allowed;color:rgba(42,30,28,.4);box-shadow:inset 0 0 0 1px rgba(42,30,28,.08)}
+.slots-t{margin:22px 0 10px}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(74px,1fr));gap:8px}
+.slots .chip label{width:100%;justify-content:center;font-variant-numeric:tabular-nums}
+.field{display:grid;gap:8px;margin-top:18px}
+.field:first-of-type{margin-top:4px}
+.field label{font-size:.75rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--taupe)}
+.field input{width:100%;min-height:52px;padding:12px 14px;background:var(--po);border:0;border-bottom:1px solid var(--cacau);border-radius:0;font-size:1.0625rem;color:var(--cacau);transition:background .3s,border-color .3s}
+.field input::placeholder{color:rgba(42,30,28,.45)}
+.field input:focus{background:#fff;outline:none;border-bottom-color:var(--malva);box-shadow:0 1px 0 var(--malva)}
+.field input[aria-invalid="true"]{border-bottom-color:#9B3B3B}
+.err{min-height:1.4em;font-size:.875rem;line-height:1.4;color:#8E3434}
+.step-err{margin-top:10px}
+.card-ft{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:26px}
+.card-ft .btn{flex:1 1 auto}
+.back{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:0 4px;font-size:.75rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;color:var(--cacau-2)}
+.back svg{width:16px;height:8px}
+.ag-when{font-family:var(--serif);font-size:clamp(2.2rem,1.6rem + 2vw,3.4rem);line-height:1;letter-spacing:-.02em;margin:4px 0 18px}
+.resumo{display:grid;gap:0;margin-top:6px;border-top:1px solid var(--linha)}
+.resumo div{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,7fr);gap:14px;padding-block:12px;border-bottom:1px solid var(--linha)}
+.resumo dt{font-size:.75rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--taupe);padding-top:.25em}
+.resumo dd{font-size:var(--fs-body);line-height:1.45}
+.done-note{margin-top:16px;font-size:var(--fs-sm);line-height:1.55;color:var(--cacau-2)}
+.wa-go{width:100%;margin-top:22px}
+.wa-go svg{width:18px;height:18px}
+@media (min-width:900px){
+  .ag-grid{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:start}
+  .ag-intro{grid-column:1 / span 4;position:sticky;top:calc(var(--hd) + 48px)}
+  .card{grid-column:6 / span 7}
+}
+
+/* ---------- footer: expediente ---------- */
+.ft{background:var(--cacau);color:var(--po);padding-block:clamp(72px,9vw,128px) calc(clamp(28px,4vw,48px) + 76px)}
+.ft ::selection{background:var(--malva);color:var(--nevoa)}
+.ft-top{display:grid;gap:30px;padding-bottom:clamp(40px,5vw,64px);border-bottom:1px solid rgba(239,230,227,.18)}
+.ft-mark{font-family:var(--serif);font-style:italic;font-size:clamp(4rem,2.4rem + 8vw,10.5rem);line-height:.86;letter-spacing:-.04em}
+.ft-line{font-family:var(--serif);font-size:clamp(1.3rem,1.1rem + .8vw,1.9rem);line-height:1.2;max-width:24ch;color:var(--rose)}
+.ft-cols{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:36px var(--gap);padding-top:clamp(36px,4vw,56px)}
+.ft-col{min-width:0}
+@media (max-width:899px){ .ft-col--contato{grid-column:1 / -1} }
+.ft-col h3{font-family:var(--sans);font-size:.75rem;font-weight:500;letter-spacing:.16em;text-transform:uppercase;color:var(--rose);margin-bottom:14px;line-height:1.4}
+.ft-col p,.ft-col li{font-size:var(--fs-sm);line-height:1.6;color:rgba(239,230,227,.86)}
+.ft-col a{display:inline-block;padding-block:11px;color:var(--po);text-underline-offset:4px;text-decoration-thickness:1px}
+.ft-col a:hover{color:#fff}
+.copy-row{display:flex;flex-wrap:wrap;align-items:center;gap:2px 10px}
+.copy{display:inline-flex;align-items:center;min-height:44px;padding:0 10px;margin-left:-10px;font-size:.75rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:var(--rose);text-decoration:underline;text-underline-offset:3px;text-decoration-color:rgba(220,192,188,.5)}
+.copy:hover{color:#fff}
+.ft-bottom{display:grid;gap:10px;margin-top:clamp(40px,5vw,72px);padding-top:22px;border-top:1px solid rgba(239,230,227,.18);font-size:.8125rem;line-height:1.55;color:rgba(239,230,227,.72)}
+.ft :focus-visible{outline-color:var(--rose)}
+@media (min-width:900px){
+  .ft-top{grid-template-columns:repeat(12,minmax(0,1fr));column-gap:var(--gap);align-items:end}
+  .ft-mark{grid-column:1 / span 7}
+  .ft-line{grid-column:9 / span 4;padding-bottom:.6em}
+  .ft-cols{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .ft-bottom{grid-template-columns:1fr auto;align-items:baseline}
+  .ft{padding-bottom:clamp(28px,4vw,48px)}
+}
+
+/* ---------- mobile bar & demo badge ---------- */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:70;display:grid;grid-template-columns:minmax(0,1fr) 56px;gap:8px;padding:16px max(12px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));background:var(--po);box-shadow:0 -1px 0 var(--linha);transition:transform .5s var(--ease)}
+.bar .btn{min-height:50px;padding:0 14px}
+.bar-wa{display:grid;place-items:center;min-height:50px;box-shadow:inset 0 0 0 1px rgba(42,30,28,.35);color:var(--cacau);border-radius:1px}
+.bar-wa svg{width:22px;height:22px}
+.bar.is-hidden{transform:translateY(110%)}
+#demo-badge{position:fixed;z-index:75;display:flex;align-items:center;gap:8px;margin:0;font-size:.75rem;line-height:14px;letter-spacing:.02em;color:var(--taupe);pointer-events:none}
+#demo-badge::before{content:"";flex:none;width:6px;height:6px;border-radius:50%;background:var(--malva)}
+@media (max-width:1079px){
+  /* phones and tablets: a one-line strip under the sticky bar, part of the bottom chrome, never over content */
+  #demo-badge{left:0;right:0;bottom:0;justify-content:center;padding:5px max(12px,env(safe-area-inset-right,0px)) calc(5px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));background:var(--po)}
+  #demo-badge ~ .bar{bottom:calc(24px + env(safe-area-inset-bottom,0px));padding-bottom:10px}
+  #demo-badge ~ .bar.is-hidden{transform:translateY(calc(100% + 24px + env(safe-area-inset-bottom,0px)))}
+  :root:has(#bar.is-hidden) #demo-badge{box-shadow:0 -1px 0 var(--linha)}
+  .ft{padding-bottom:calc(clamp(28px,4vw,48px) + 96px + env(safe-area-inset-bottom,0px))}
+  :root:has(#demo-badge) .ft{padding-bottom:calc(clamp(28px,4vw,48px) + 120px + env(safe-area-inset-bottom,0px))}
+}
+@media (min-width:1080px){
+  .bar{display:none}
+  /* desktop: a vertical pill parked in the right gutter, echoing the hero's vertical address */
+  #demo-badge{right:max(14px,env(safe-area-inset-right,0px));bottom:24px;writing-mode:vertical-rl;transform:rotate(180deg);padding:12px 5px;border-radius:999px;background:rgba(247,242,241,.94);box-shadow:0 0 0 1px var(--linha)}
+  .ft{padding-bottom:clamp(28px,4vw,48px)}
+}
+
+@media (max-width:899px){ :root{--fs-sm:1rem} .mp-fine{font-size:.875rem} }
+
+@media (prefers-reduced-motion:no-preference){ .step.is-in{animation:stepIn .55s var(--ease) both} }
+@keyframes stepIn{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+
+/* ---------- reduced motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition-duration:.01ms!important;animation:none!important}
+}
+</style>
+</head>
+<body>
+<a class="sr skip" href="#principal">Pular para o conteúdo</a>
+
+<header class="hd" id="hd">
+  <div class="wrap hd-in">
+    <a class="brand" href="#topo" aria-label="Nuance Estética Avançada, voltar ao início">
+      <span class="brand-n">Nuance</span>
+      <span class="brand-s">Estética<br>avançada</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="#tratamentos">Tratamentos</a>
+      <a href="#mapa">Mapa facial</a>
+      <a href="#clinica">A clínica</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#agendar">Agendar</a>
+    </nav>
+    <a class="btn hd-cta magnet" href="#agenda">Agendar avaliação</a>
+    <button class="menu-btn" type="button" id="menu-btn" aria-expanded="false" aria-controls="menu">Menu <i aria-hidden="true"></i></button>
+  </div>
+</header>
+
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="menu-top">
+    <div class="wrap hd-in">
+      <a class="brand" href="#topo" aria-label="Nuance Estética Avançada, voltar ao início">
+        <span class="brand-n">Nuance</span>
+        <span class="brand-s">Estética<br>avançada</span>
+      </a>
+      <button class="menu-btn menu-close" type="button" id="menu-close">Fechar <i aria-hidden="true"></i></button>
+    </div>
+  </div>
+  <nav class="wrap menu-list" aria-label="Menu do celular">
+    <a href="#tratamentos">Tratamentos <span>14 tratamentos</span></a>
+    <a href="#mapa">Mapa facial <span>9 regiões</span></a>
+    <a href="#clinica">A clínica <span>Jardins</span></a>
+    <a href="#equipe">Equipe <span>3 profissionais</span></a>
+    <a href="#agenda">Agendar <span>50&nbsp;min</span></a>
+  </nav>
+  <div class="wrap menu-foot">
+    <p>Rua Haddock Lobo, 1.307 · Jardins<br>Seg a sex, 9h às 20h · Sáb, 9h às 15h</p>
+    <a class="btn" href="#agenda">Agendar avaliação <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
+  </div>
+</div>
+
+<main id="principal">
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="topo" aria-labelledby="hero-t">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="hero-kicker lab">Estética médica · Jardins, São Paulo</p>
+      <h1 class="hero-h1" id="hero-t">
+        <span class="ln"><span style="--i:0">O melhor</span></span>
+        <span class="ln"><span style="--i:1">resultado</span></span>
+        <span class="ln"><span style="--i:2">é o que <em>ninguém</em></span></span>
+        <span class="ln"><span style="--i:3"><em>aponta.</em><sup><a href="#nota-1" aria-label="Ler a nota 1">1</a></sup></span></span>
+      </h1>
+      <p class="lead hero-sub">Rejuvenescimento facial com critério médico e doses que preservam seus traços. Comece por uma avaliação de 50&nbsp;minutos, sem compromisso de fazer nada no mesmo dia.</p>
+      <div class="hero-cta">
+        <a class="btn magnet" href="#agenda">Agendar avaliação <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
+        <a class="lnk" href="#mapa">Ver o mapa facial</a>
+      </div>
+      <p class="hero-rt cap">Responsável técnica: <span class="nb">Dra. Helena Duarte,</span> dermatologista<br>CRM-SP 184.302 · RQE 61.457</p>
+    </div>
+    <figure class="hero-fig">
+      <div class="arch">
+        <img src="assets/hero.jpg" width="896" height="1120" fetchpriority="high" decoding="async" data-parallax="4" alt="Retrato de mulher de cabelo loiro ondulado e solto, pele natural com sardas leves e linhas finas de expressão, olhando para o lado">
+      </div>
+      <p class="hero-side cap" aria-hidden="true">Rua Haddock Lobo, 1.307</p>
+      <figcaption class="hero-note" id="nota-1"><b>1</b><span>Sardas, textura e expressão fazem parte do rosto. Tratamos o que incomoda você, na dose que ninguém percebe.</span></figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ REGRAS DA CASA ============ -->
+<section class="sec regras" id="principios" aria-labelledby="regras-t">
+  <div class="wrap grid">
+    <div class="regras-head">
+      <p class="kick lab">Regras da casa</p>
+      <h2 class="h2" id="regras-t">Quatro regras que valem da primeira consulta <em>à&nbsp;décima.</em></h2>
+      <p class="lead">São elas que mantêm o resultado discreto. E&nbsp;são elas que, às vezes, fazem a consulta terminar sem procedimento nenhum.</p>
+    </div>
+    <ul class="regras-list">
+      <li class="regra">
+        <p class="lab">Tempo</p>
+        <h3>Cinquenta minutos só de avaliação.</h3>
+        <p>Olhamos o rosto em repouso e em movimento, fazemos fotos padronizadas e conversamos sobre o que incomoda e o que você quer manter.</p>
+      </li>
+      <li class="regra">
+        <p class="lab">Calma</p>
+        <h3>O plano vai por escrito, para casa.</h3>
+        <p>Etapas, intervalos e valores no papel. Ninguém espera que você decida no mesmo dia, e ninguém liga cobrando depois.</p>
+      </li>
+      <li class="regra">
+        <p class="lab">Medida</p>
+        <h3>Doses conservadoras e retorno em 15&nbsp;dias.</h3>
+        <p>Começamos pelo mínimo eficaz. Todo injetável inclui uma revisão para ajustes finos.</p>
+      </li>
+      <li class="regra">
+        <p class="lab">Procedência</p>
+        <h3>O produto é aberto na sua frente.</h3>
+        <p>Só usamos produtos registrados na Anvisa, e o número do lote fica anotado na sua ficha.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ VERBETE ============ -->
+<section class="verbete" aria-label="O significado de nuance">
+  <figure class="verbete-fig">
+    <img src="assets/textura.jpg" width="2000" height="1333" loading="eager" fetchpriority="low" decoding="async" alt="Pincelada de creme branco e espesso sobre fundo branco, em macro, com sombra suave">
+  </figure>
+  <div class="wrap verbete-txt">
+    <p class="verbete-word">nu<span aria-hidden="true">·</span>an<span aria-hidden="true">·</span>ce</p>
+    <p class="verbete-class cap">substantivo feminino</p>
+    <ol class="verbete-def">
+      <li>Diferença sutil entre coisas parecidas.</li>
+      <li>O que separa um rosto descansado de um rosto “feito”.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ MAPA FACIAL (signature) ============ -->
+<section class="sec mapa" id="mapa" aria-labelledby="mapa-t">
+  <div class="wrap">
+    <div class="mapa-head">
+      <div>
+        <p class="kick lab">Mapa facial</p>
+        <h2 class="h2" id="mapa-t">Toque onde <em>incomoda.</em></h2>
+      </div>
+      <p class="lead">Escolha uma região do rosto. Mostramos o que costuma resolver, quanto tempo leva e quando você volta à rotina. A indicação final sai sempre da avaliação.</p>
+    </div>
+
+    <div class="mapa-body">
+      <div class="mp-stage">
+      <div class="mp-photo" id="mp-photo">
+        <img src="assets/mapa.jpg" width="1400" height="1750" loading="eager" fetchpriority="low" decoding="async" alt="Rosto frontal de mulher negra de cabelo preso com risca ao meio, olhar direto para a câmera e pele iluminada; uma das mãos apoiada atrás da orelha">
+        <button class="hs" type="button" style="--x:50;--y:25.7;--d:0" data-zone="0" aria-label="Testa" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Testa</span></button>
+        <button class="hs" type="button" style="--x:50;--y:33.6;--d:1" data-zone="1" aria-label="Entre as sobrancelhas" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Entre as sobrancelhas</span></button>
+        <button class="hs" type="button" style="--x:71;--y:38.5;--d:2" data-zone="2" aria-label="Pés de galinha" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Pés de galinha</span></button>
+        <button class="hs hs--l" type="button" style="--x:39.3;--y:42.9;--d:3" data-zone="3" aria-label="Olheiras" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Olheiras</span></button>
+        <button class="hs" type="button" style="--x:66.3;--y:46;--d:4" data-zone="4" aria-label="Maçãs do rosto" aria-pressed="true" aria-controls="mp-panel"><span class="hs-l">Maçãs do rosto</span></button>
+        <button class="hs hs--l" type="button" style="--x:42.1;--y:52.9;--d:5" data-zone="5" aria-label="Bigode chinês" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Bigode chinês</span></button>
+        <button class="hs" type="button" style="--x:50;--y:57.6;--d:6" data-zone="6" aria-label="Lábios" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Lábios</span></button>
+        <button class="hs" type="button" style="--x:68;--y:63.5;--d:7" data-zone="7" aria-label="Contorno da mandíbula" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Contorno da mandíbula</span></button>
+        <button class="hs" type="button" style="--x:50;--y:72.6;--d:8" data-zone="8" aria-label="Pescoço" aria-pressed="false" aria-controls="mp-panel"><span class="hs-l">Pescoço</span></button>
+        <p class="mp-hint cap" aria-hidden="true">9 regiões · toque em um ponto</p>
+      </div>
+      </div>
+
+      <div class="mp-panel" id="mp-panel">
+        <div class="mp-top">
+          <p class="mp-zone" id="mp-zone" aria-live="polite">Maçãs do rosto</p>
+          <div class="mp-nav">
+            <button type="button" id="mp-prev" aria-label="Região anterior"><svg viewBox="0 0 18 10" aria-hidden="true"><path d="M18 5H1.5M5 1.5 1.5 5 5 8.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></button>
+            <span class="mp-count" id="mp-count">5 / 9</span>
+            <button type="button" id="mp-next" aria-label="Próxima região"><svg viewBox="0 0 18 10" aria-hidden="true"><path d="M0 5h16.5M13 1.5 16.5 5 13 8.5" fill="none" stroke="currentColor" stroke-width="1"/></svg></button>
+          </div>
+        </div>
+        <div class="mp-swap" id="mp-swap">
+          <p class="lab mp-said">O que mais ouvimos</p>
+          <blockquote class="mp-quote" id="mp-quote">“Parece que o meu rosto desceu.”</blockquote>
+          <p class="mp-note" id="mp-note">Com o tempo, a gordura e o osso do terço médio perdem sustentação, e o que está abaixo acompanha. Repor um pouco de suporte nas maçãs costuma suavizar olheira e bigode chinês ao mesmo tempo.</p>
+          <div class="mp-opts" id="mp-opts" role="group" aria-label="Opções de tratamento">
+            <p class="lab">Opções mais indicadas</p>
+            <button type="button" class="mp-opt" aria-pressed="true" data-i="0">Ácido hialurônico</button>
+            <button type="button" class="mp-opt" aria-pressed="false" data-i="1">Bioestimulador de colágeno</button>
+          </div>
+          <dl class="mp-spec" id="mp-spec">
+            <div><dt>Duração da sessão</dt><dd>40&nbsp;a&nbsp;60&nbsp;min</dd></div>
+            <div><dt>Volta à rotina</dt><dd>No mesmo dia, com inchaço leve por 2&nbsp;a&nbsp;5&nbsp;dias</dd></div>
+            <div><dt>Quando aparece</dt><dd>Na hora; resultado final em 15&nbsp;a&nbsp;30&nbsp;dias</dd></div>
+            <div><dt>Quanto dura</dt><dd>12&nbsp;a&nbsp;18&nbsp;meses</dd></div>
+            <div><dt>Sessões</dt><dd>1 sessão + retorno em 15&nbsp;dias</dd></div>
+          </dl>
+        </div>
+        <p class="mp-fine">Faixas médias, para você se organizar. Dose, técnica e número de sessões saem da avaliação.</p>
+        <a class="btn mp-cta" id="mp-cta" href="#agenda">Agendar avaliação para esta região <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRATAMENTOS ============ -->
+<section class="sec tx" id="tratamentos" aria-labelledby="tx-t">
+  <div class="wrap">
+    <div class="tx-head">
+      <div>
+        <h2 class="h2 tx-title" id="tx-t">Tratamentos</h2>
+      </div>
+      <p class="lead">Tempo de sessão e volta à rotina de cada um. Valores só depois da avaliação, porque nenhum plano sai igual ao outro.</p>
+    </div>
+
+    <div class="tx-group">
+      <div class="tx-ghead"><h3 class="tx-gname">Rosto</h3><span class="cap">5 tratamentos</span></div>
+      <div class="tx-cols cap" aria-hidden="true"><span>Indicação</span><span>Sessão</span><span>Volta à rotina</span></div>
+      <ul class="tx-list">
+        <li class="tx-row" data-img="assets/extra-1.jpg" data-pos="38% 42%"><h4 class="tx-name">Toxina botulínica</h4><p class="tx-for">Linhas de expressão na testa, entre as sobrancelhas e ao redor dos olhos</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">20–30&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/mapa.jpg" data-pos="50% 50%"><h4 class="tx-name">Preenchimento com ácido hialurônico</h4><p class="tx-for">Volume e sustentação em olheiras, maçãs do rosto, sulcos, lábios e mandíbula</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">40–60&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia, inchaço leve por <span class="nb">2–5&nbsp;dias</span></span></p></li>
+        <li class="tx-row" data-img="assets/hero.jpg" data-pos="50% 40%" data-duo><h4 class="tx-name">Bioestimuladores de colágeno</h4><p class="tx-for">Flacidez e qualidade da pele, com resultado progressivo</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">30–45&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/extra-2.jpg" data-pos="50% 55%"><h4 class="tx-name">Skinbooster</h4><p class="tx-for">Hidratação profunda, viço e linhas finas</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">30–40&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia, marquinhas por <span class="nb">1–2&nbsp;dias</span></span></p></li>
+        <li class="tx-row" data-img="assets/procedimento.jpg" data-pos="40% 50%" data-duo><h4 class="tx-name">Fios de PDO</h4><p class="tx-for">Sustentação leve e estímulo de colágeno no terço médio do rosto</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">40–60&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia, inchaço leve por <span class="nb">3–5&nbsp;dias</span></span></p></li>
+      </ul>
+    </div>
+
+    <div class="tx-group">
+      <div class="tx-ghead"><h3 class="tx-gname">Pele</h3><span class="cap">5 tratamentos</span></div>
+      <div class="tx-cols cap" aria-hidden="true"><span>Indicação</span><span>Sessão</span><span>Volta à rotina</span></div>
+      <ul class="tx-list">
+        <li class="tx-row" data-img="assets/procedimento.jpg" data-pos="70% 40%" data-duo><h4 class="tx-name">Laser fracionado</h4><p class="tx-for">Textura, poros dilatados, manchas e cicatrizes de acne</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">45–60&nbsp;min</span></span><span><b>Volta à rotina</b>Vermelhidão por <span class="nb">3–7&nbsp;dias</span></span></p></li>
+        <li class="tx-row" data-img="assets/clinica-3.jpg" data-pos="31% 50%"><h4 class="tx-name">Peeling químico</h4><p class="tx-for">Manchas, oleosidade e renovação da camada superficial</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">30&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia, descamação por <span class="nb">2–5&nbsp;dias</span></span></p></li>
+        <li class="tx-row" data-img="assets/extra-2.jpg" data-pos="40% 70%"><h4 class="tx-name">Micro&shy;agulhamento</h4><p class="tx-for">Cicatrizes de acne, poros e firmeza da pele</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">45–60&nbsp;min</span></span><span><b>Volta à rotina</b>Vermelhidão por <span class="nb">2–3&nbsp;dias</span></span></p></li>
+        <li class="tx-row" data-img="assets/textura.jpg" data-pos="54% 52%"><h4 class="tx-name">Limpeza de pele profunda</h4><p class="tx-for">Cravos, oleosidade e preparo da pele para outros tratamentos</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">60–75&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/extra-1.jpg" data-pos="30% 50%"><h4 class="tx-name">Tratamento de melasma</h4><p class="tx-for">Manchas acastanhadas, com plano combinado e manutenção em casa</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">30–45&nbsp;min</span></span><span><b>Volta à rotina</b>Conforme a técnica</span></p></li>
+      </ul>
+    </div>
+
+    <div class="tx-group">
+      <div class="tx-ghead"><h3 class="tx-gname">Corpo</h3><span class="cap">4 tratamentos</span></div>
+      <div class="tx-cols cap" aria-hidden="true"><span>Indicação</span><span>Sessão</span><span>Volta à rotina</span></div>
+      <ul class="tx-list">
+        <li class="tx-row" data-img="assets/extra-3.jpg" data-pos="50% 40%"><h4 class="tx-name">Ultrassom microfocado corporal</h4><p class="tx-for">Flacidez em abdome, braços e parte interna das coxas</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">60–90&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/textura.jpg" data-pos="30% 50%"><h4 class="tx-name">Radiofrequência</h4><p class="tx-for">Firmeza da pele e aspecto da celulite</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">40–50&nbsp;min</span></span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/extra-3.jpg" data-pos="30% 70%"><h4 class="tx-name">Criolipólise</h4><p class="tx-for">Gordura localizada que resiste a dieta e exercício</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">60&nbsp;min</span> por&nbsp;área</span><span><b>Volta à rotina</b>Mesmo dia</span></p></li>
+        <li class="tx-row" data-img="assets/textura.jpg" data-pos="64% 60%"><h4 class="tx-name">Tratamento de estrias</h4><p class="tx-for">Estrias vermelhas e brancas, com laser e microagulhamento</p><p class="tx-meta"><span><b>Sessão</b><span class="nb">45–60&nbsp;min</span></span><span><b>Volta à rotina</b>Vermelhidão por <span class="nb">2–5&nbsp;dias</span></span></p></li>
+      </ul>
+    </div>
+
+    <div class="tx-foot">
+      <p>Não sabe por onde começar? A avaliação existe exatamente para isso.</p>
+      <a class="btn btn--ghost" href="#agenda" data-motivo="Ainda não sei">Agendar avaliação <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></a>
+    </div>
+  </div>
+  <div class="tx-prev" id="tx-prev" aria-hidden="true"><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="" width="1000" height="1500" decoding="async"></div>
+</section>
+
+<!-- ============ ANTES DE QUALQUER AGULHA ============ -->
+<section class="sec etapas" id="etapas" aria-labelledby="et-t">
+  <div class="wrap">
+    <div class="et-head">
+      <div class="et-title">
+        <p class="kick lab">Como funciona</p>
+        <h2 class="h2" id="et-t">Antes de qualquer <em>agulha.</em></h2>
+      </div>
+      <p class="lead">Quatro etapas, sempre nesta ordem. Nenhuma é pulada, nem quando você já chega sabendo o que quer.</p>
+      <figure class="et-fig">
+        <div class="et-frame"><img src="assets/procedimento.jpg" width="1400" height="931" loading="lazy" decoding="async" data-parallax="5" alt="Mãos com luvas conduzem um procedimento facial em paciente deitada, de olhos fechados e touca descartável, sobre maca com lençol branco"></div>
+        <figcaption class="cap">Etapa 3 · procedimento, sala 2</figcaption>
+      </figure>
+    </div>
+
+    <div class="et-track" id="et-track">
+      <span class="et-rail" aria-hidden="true"><i id="et-fill"></i></span>
+      <ol class="et-steps">
+        <li class="et-step">
+          <span class="et-num" aria-hidden="true">1</span>
+          <h3>Avaliação</h3>
+          <p class="et-when cap">50&nbsp;minutos</p>
+          <p>Análise facial em repouso e em movimento, fotos padronizadas e uma conversa franca sobre expectativas.</p>
+        </li>
+        <li class="et-step">
+          <span class="et-num" aria-hidden="true">2</span>
+          <h3>Plano por escrito</h3>
+          <p class="et-when cap">Para levar para casa</p>
+          <p>Tudo o que conversamos vira um plano com etapas, intervalos e valores. Você leva para casa e responde quando quiser.</p>
+        </li>
+        <li class="et-step">
+          <span class="et-num" aria-hidden="true">3</span>
+          <h3>Procedimento</h3>
+          <p class="et-when cap">No dia em que você escolher</p>
+          <p>Anestésico tópico, produto aberto na sua frente e número do lote anotado na sua ficha.</p>
+        </li>
+        <li class="et-step">
+          <span class="et-num" aria-hidden="true">4</span>
+          <h3>Retorno em 15&nbsp;dias</h3>
+          <p class="et-when cap">Incluso em todo injetável</p>
+          <p>Comparamos com as fotos da avaliação e fazemos os ajustes finos.</p>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ A CLÍNICA ============ -->
+<section class="sec clinica" id="clinica" aria-labelledby="cl-t">
+  <div class="wrap cl-grid">
+    <figure class="cl-fig cl-a">
+      <div class="cl-frame"><img src="assets/clinica-1.jpg" width="1400" height="2100" loading="eager" fetchpriority="low" decoding="async" data-parallax="5" alt="Sala de espera minimalista em tons de off-white, com passagem em arco que revela um sofá grafite e uma mesa de centro; à esquerda, vaso de vidro com galhos secos"></div>
+      <figcaption class="cap">Recepção</figcaption>
+    </figure>
+    <div class="cl-text">
+      <h2 class="h2" id="cl-t">Uma casa <em>silenciosa</em> na Haddock&nbsp;Lobo.</h2>
+      <p class="lead">A agenda é espaçada para a recepção nunca lotar, e nada do seu atendimento se ouve do corredor. As salas têm porta de verdade e a mesma calma da recepção.</p>
+      <dl class="cl-facts">
+        <div><dt>4 salas</dt><dd>de procedimento, com luz natural e pia própria</dd></div>
+        <div><dt>Recuperação</dt><dd>uma sala só para descansar antes de ir embora</dd></div>
+        <div><dt>Manobrista</dt><dd>na porta, durante todo o horário de atendimento</dd></div>
+        <div><dt>8&nbsp;min</dt><dd>a pé da estação Oscar Freire, Linha 4-Amarela</dd></div>
+      </dl>
+    </div>
+    <div class="cl-pair">
+      <figure class="cl-fig cl-b">
+        <div class="cl-frame"><img src="assets/clinica-3.jpg" width="1400" height="933" loading="eager" fetchpriority="low" decoding="async" data-parallax="4" alt="Frasco conta-gotas branco com aro dourado, sem rótulo, sobre uma placa de mármore ao lado de uma toalha felpuda"></div>
+        <figcaption class="cap">Bancada de preparo, sala 2</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EQUIPE ============ -->
+<section class="sec equipe" id="equipe" aria-labelledby="eq-t">
+  <div class="wrap">
+    <div class="eq-head">
+      <div>
+        <h2 class="h2" id="eq-t">Três formações, <em>a mesma régua.</em></h2>
+      </div>
+      <p class="lead">Médica, dentista e biomédica, cada uma no que faz melhor. Os casos são discutidos em conjunto antes de qualquer plano.</p>
+    </div>
+    <ul class="eq-list">
+      <li class="eq">
+        <div class="eq-photo"><img src="assets/equipe-1.jpg" srcset="assets/equipe-1-600.jpg 600w, assets/equipe-1.jpg 1000w" sizes="(min-width:900px) 30vw, 40vw" width="1000" height="1250" loading="eager" fetchpriority="low" decoding="async" alt="Dra. Helena Duarte, dermatologista, sorrindo; cabelo cacheado curto, colar dourado e blazer claro de tweed listrado"></div>
+        <div class="eq-txt">
+          <h3 class="eq-name">Dra. Helena Duarte</h3>
+          <p class="eq-role">Médica dermatologista e responsável técnica. Rejuvenescimento facial e lasers.</p>
+          <p class="eq-reg cap">CRM-SP 184.302 · RQE 61.457</p>
+          <p class="eq-say">Antes de marcar qualquer ponto, pede que você fale, sorria e franza a testa. A dose nasce de como o seu rosto se mexe.</p>
+        </div>
+      </li>
+      <li class="eq">
+        <div class="eq-photo"><img src="assets/equipe-2.jpg" srcset="assets/equipe-2-600.jpg 600w, assets/equipe-2.jpg 1000w" sizes="(min-width:900px) 30vw, 40vw" width="1000" height="1250" loading="eager" fetchpriority="low" decoding="async" alt="Dra. Camila Rezende, cirurgiã-dentista, sorrindo; cabelo castanho longo e blusa preta, diante de parede cinza-clara"></div>
+        <div class="eq-txt">
+          <h3 class="eq-name">Dra. Camila Rezende</h3>
+          <p class="eq-role">Cirurgiã-dentista, especialista em Harmonização Orofacial. Lábios, contorno e bioestimuladores.</p>
+          <p class="eq-reg cap">CRO-SP 98.214</p>
+          <p class="eq-say">Mede as proporções do rosto com paquímetro antes de qualquer marcação e prefere duas sessões leves a uma carregada.</p>
+        </div>
+      </li>
+      <li class="eq">
+        <div class="eq-photo"><img src="assets/equipe-3.jpg" srcset="assets/equipe-3-600.jpg 600w, assets/equipe-3.jpg 1000w" sizes="(min-width:900px) 30vw, 40vw" width="1000" height="1250" loading="eager" fetchpriority="low" decoding="async" alt="Juliana Prado, biomédica esteta, sorrindo; cabelo crespo curto, argolas douradas e blusa branca, diante de fundo creme"></div>
+        <div class="eq-txt">
+          <h3 class="eq-name">Juliana Prado</h3>
+          <p class="eq-role">Biomédica esteta. Peelings, microagulhamento e protocolos de melasma.</p>
+          <p class="eq-reg cap">CRBM-1 54.871</p>
+          <p class="eq-say">Monta com você a rotina de casa, porque boa parte do resultado de pele acontece entre uma sessão e outra.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ============ PERGUNTAS ============ -->
+<section class="sec faq" id="perguntas" aria-labelledby="faq-t">
+  <div class="wrap grid">
+    <div class="faq-head">
+      <p class="kick lab">Perguntas frequentes</p>
+      <h2 class="h2 faq-t" id="faq-t">O que todo mundo pergunta na primeira vez.</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item is-open">
+        <h3 class="faq-q"><button type="button" id="fq1" aria-expanded="true" aria-controls="fa1"><span>Vou ficar com cara de feita?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa1" role="region" aria-labelledby="fq1"><div><p>A proposta é justamente o contrário. Trabalhamos com o mínimo eficaz e revisamos tudo no retorno de 15&nbsp;dias. Se&nbsp;alguém comentar, o mais provável é que pergunte se você descansou.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq2" aria-expanded="false" aria-controls="fa2"><span>A avaliação é paga?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa2" role="region" aria-labelledby="fq2"><div><p>Sim. São 50&nbsp;minutos com análise do rosto em repouso e em movimento, fotos padronizadas e um plano por escrito para levar para casa. A recepção informa o valor pelo WhatsApp antes de você marcar.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq3" aria-expanded="false" aria-controls="fa3"><span>Dói?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa3" role="region" aria-labelledby="fq3"><div><p>Pouco. Usamos anestésico tópico e, quando a região permite, cânula no lugar da agulha. A maioria descreve como uma picada rápida ou uma pressão. Você pode pedir pausa a qualquer momento.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq4" aria-expanded="false" aria-controls="fa4"><span>Posso trabalhar no dia seguinte?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa4" role="region" aria-labelledby="fq4"><div><p>Na maioria dos casos, sim. Com toxina, você volta no mesmo dia; preenchimentos podem deixar um inchaço leve por 2&nbsp;a&nbsp;5&nbsp;dias, e laser ou peeling pedem alguns dias de vermelhidão ou descamação. O plano por escrito já indica o melhor momento, inclusive se houver um evento marcado.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq5" aria-expanded="false" aria-controls="fa5"><span>Quanto tempo dura o botox?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa5" role="region" aria-labelledby="fq5"><div><p>A toxina botulínica dura de 4&nbsp;a&nbsp;6&nbsp;meses. Ela começa a agir em 3&nbsp;a&nbsp;5&nbsp;dias e chega ao efeito pleno em cerca de 15, que é quando fazemos o retorno. Com aplicações regulares, muitas pacientes conseguem espaçar as sessões.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq6" aria-expanded="false" aria-controls="fa6"><span>Vocês fazem só o que eu pedir?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa6" role="region" aria-labelledby="fq6"><div><p>Fazemos o que fizer sentido para o seu rosto, e às vezes isso é menos do que você pediu. Se não houver indicação, dizemos com todas as letras. Já houve avaliação que terminou só com uma rotina de cuidados para casa.</p></div></div>
+      </div>
+      <div class="faq-item">
+        <h3 class="faq-q"><button type="button" id="fq7" aria-expanded="false" aria-controls="fa7"><span>Atendem homens?</span><span class="faq-ico" aria-hidden="true"></span></button></h3>
+        <div class="faq-a" id="fa7" role="region" aria-labelledby="fq7"><div><p>Sim, e cada vez mais. O rosto masculino pede outros pontos e outras doses: preservamos ângulos marcados e sobrancelhas mais retas, para que o resultado não suavize demais os traços.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AGENDAR ============ -->
+<section class="sec agendar" id="agendar" aria-labelledby="ag-t">
+  <div class="wrap ag-grid">
+    <div class="ag-intro">
+      <h2 class="h2" id="ag-t">Comece pela <em>avaliação.</em></h2>
+      <p class="lead">Cinquenta minutos com a profissional indicada para o seu caso. Você sai com um plano por escrito e nenhuma obrigação de fazer nada no mesmo dia.</p>
+      <div class="ag-facts">
+        <p><span class="cap">Onde</span>Rua Haddock Lobo, 1.307, Cerqueira César. Manobrista na porta.</p>
+        <p><span class="cap">Quando</span>Seg a sex, 9h às 20h · Sáb, 9h às 15h</p>
+        <p><span class="cap">Prefere ligar?</span>(11) 3062-4180</p>
+      </div>
+    </div>
+
+    <form class="card" id="agenda" novalidate aria-labelledby="card-t">
+      <div class="card-hd">
+        <div class="card-title"><p id="card-t">Pedido de horário</p><p class="cap" id="ag-step-t" aria-live="polite">Etapa 1 de 3</p></div>
+        <ol class="prog" id="prog" aria-hidden="true"><li class="is-now">Motivo</li><li>Horário</li><li>Seus dados</li></ol>
+      </div>
+      <div class="card-bd">
+        <fieldset class="step" id="st-1" tabindex="-1">
+          <legend>Qual é o motivo da visita?</legend>
+          <p class="step-help">Na dúvida, escolha a avaliação completa. É&nbsp;por onde quase todo mundo começa.</p>
+          <div class="chips" id="motivos">
+            <div class="chip"><input type="radio" name="motivo" id="m1" value="Avaliação facial completa" checked><label for="m1">Avaliação facial completa</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m2" value="Toxina botulínica"><label for="m2">Toxina botulínica</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m3" value="Preenchimento"><label for="m3">Preenchimento</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m4" value="Bioestimulador"><label for="m4">Bioestimulador</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m5" value="Pele e laser"><label for="m5">Pele e laser</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m6" value="Corpo"><label for="m6">Corpo</label></div>
+            <div class="chip"><input type="radio" name="motivo" id="m7" value="Ainda não sei"><label for="m7">Ainda não sei</label></div>
+          </div>
+          <div class="regiao" id="regiao" hidden><span>Região de interesse: <b id="regiao-n">Maçãs do rosto</b></span><button type="button" id="regiao-x" aria-label="Remover região do pedido">Remover</button></div>
+          <div class="card-ft"><button type="button" class="btn" data-go="2">Escolher dia e horário <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></button></div>
+        </fieldset>
+
+        <fieldset class="step" id="st-2" tabindex="-1" hidden>
+          <legend>Escolha o dia e o horário</legend>
+          <p class="step-help">Próximos dias com agenda aberta. Fechado aos domingos e feriados.</p>
+          <div class="days" id="days" role="radiogroup" aria-label="Dia da avaliação"></div>
+          <p class="slots-t lab" id="slots-t">Horários livres</p>
+          <div class="slots chips" id="slots" role="radiogroup" aria-labelledby="slots-t"></div>
+          <p class="err step-err" id="err-2" aria-live="polite"></p>
+          <div class="card-ft">
+            <button type="button" class="back" data-go="1"><svg viewBox="0 0 16 8" aria-hidden="true"><path d="M16 4H1.5M4.5 1 1.5 4l3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg>Voltar</button>
+            <button type="button" class="btn" data-go="3">Continuar <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></button>
+          </div>
+        </fieldset>
+
+        <fieldset class="step" id="st-3" tabindex="-1" hidden>
+          <legend>Para quem é o horário?</legend>
+          <p class="step-help">Usamos estes dados só para responder pelo WhatsApp.</p>
+          <div class="field">
+            <label for="f-nome">Nome</label>
+            <input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome" aria-describedby="err-nome">
+            <p class="err" id="err-nome" aria-live="polite"></p>
+          </div>
+          <div class="field">
+            <label for="f-wa">WhatsApp</label>
+            <input id="f-wa" name="whatsapp" type="tel" inputmode="numeric" autocomplete="tel-national" placeholder="(11) 90000-0000" aria-describedby="err-wa">
+            <p class="err" id="err-wa" aria-live="polite"></p>
+          </div>
+          <div class="card-ft">
+            <button type="button" class="back" data-go="2"><svg viewBox="0 0 16 8" aria-hidden="true"><path d="M16 4H1.5M4.5 1 1.5 4l3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg>Voltar</button>
+            <button type="submit" class="btn">Revisar pedido <svg class="arr" viewBox="0 0 22 8" aria-hidden="true"><path d="M0 4h20.5M17.5 1l3 3-3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg></button>
+          </div>
+        </fieldset>
+
+        <div class="step" id="st-4" tabindex="-1" hidden>
+          <p class="step-legend" id="done-t">Seu pedido está pronto para enviar.</p>
+          <p class="ag-when" id="ag-when"></p>
+          <dl class="resumo" id="resumo"></dl>
+          <a class="btn wa-go" id="wa-go" href="https://wa.me/?text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20na%20Nuance." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.6 19.4 5.7 15.8A7.9 7.9 0 1 1 8.4 18.4Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M9.3 8.4c.2-.4.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.1.3 0 .5.5.9 1.3 1.6 2.2 2.1.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .6-.3 1.2-.8 1.5-.6.3-1.4.5-2.5.1a8.4 8.4 0 0 1-4.4-4.2c-.5-1-.4-2.4 0-3.2Z" fill="currentColor"/></svg>Confirmar pelo WhatsApp</a>
+          <p class="done-note"><span id="done-when">A mensagem abre pronta no seu WhatsApp. É&nbsp;só enviar: a recepção responde por lá para confirmar o horário.</span> Se puder, venha sem maquiagem e traga o nome dos produtos que já aplicou.</p>
+          <div class="card-ft"><button type="button" class="back" data-go="3"><svg viewBox="0 0 16 8" aria-hidden="true"><path d="M16 4H1.5M4.5 1 1.5 4l3 3" fill="none" stroke="currentColor" stroke-width="1"/></svg>Editar pedido</button></div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ EXPEDIENTE ============ -->
+<footer class="ft" id="contato">
+  <h2 class="sr">Contato e endereço</h2>
+  <div class="wrap">
+    <div class="ft-top">
+      <p class="ft-mark">Nuance</p>
+      <p class="ft-line">Estética avançada, com critério médico, numa casa discreta da Haddock Lobo.</p>
+    </div>
+    <div class="ft-cols">
+      <div class="ft-col">
+        <h3>Endereço</h3>
+        <p>Rua Haddock&nbsp;Lobo, 1.307<br>Cerqueira César, São&nbsp;Paulo&nbsp;–&nbsp;SP<br>CEP 01414-003</p>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Rua%20Haddock%20Lobo%2C%201307%20-%20Cerqueira%20C%C3%A9sar%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001414-003" target="_blank" rel="noopener">Como chegar</a></p>
+      </div>
+      <div class="ft-col">
+        <h3>Horários e acesso</h3>
+        <ul><li>Seg a sex, 9h às 20h</li><li>Sáb, 9h às 15h</li><li>Manobrista na porta</li><li>8&nbsp;min a pé da estação Oscar Freire</li></ul>
+      </div>
+      <div class="ft-col ft-col--contato">
+        <h3>Contato</h3>
+        <p class="copy-row">Telefone <span id="c-tel">(11) 3062-4180</span><button type="button" class="copy" data-copy="(11) 3062-4180" data-target="c-tel" aria-label="Copiar telefone">Copiar</button></p>
+        <p class="copy-row">WhatsApp <span id="c-wa">(11) 97410-2286</span><button type="button" class="copy" data-copy="(11) 97410-2286" data-target="c-wa" aria-label="Copiar WhatsApp">Copiar</button></p>
+        <p>Instagram @nuance.estetica</p>
+      </div>
+      <div class="ft-col">
+        <h3>Responsável técnica</h3>
+        <p>Dra. Helena Duarte<br>Médica dermatologista<br>CRM-SP 184.302<br>RQE 61.457</p>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <p data-demo>Site demonstrativo. Nomes, registros profissionais, endereços, avaliações e números são fictícios.</p>
+      <p>© 2026 Nuance Estética Avançada</p>
+    </div>
+  </div>
+</footer>
+
+<p id="demo-badge" data-demo><span><span class="db-a">Site demonstrativo</span><span class="db-s"> · </span><span class="db-b">conteúdo fictício</span></span></p>
+<nav class="bar" id="bar" aria-label="Ações rápidas">
+  <a class="btn" href="#agenda">Agendar avaliação</a>
+  <a class="bar-wa" href="https://wa.me/?text=Ol%C3%A1!%20Gostaria%20de%20saber%20mais%20sobre%20a%20avalia%C3%A7%C3%A3o%20na%20Nuance." data-wa="Olá! Gostaria de saber mais sobre a avaliação na Nuance." target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.6 19.4 5.7 15.8A7.9 7.9 0 1 1 8.4 18.4Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="M9.3 8.4c.2-.4.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .4-.1.6l-.5.6c-.1.1-.1.3 0 .5.5.9 1.3 1.6 2.2 2.1.2.1.4.1.5 0l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.2.1.3.3.3.5 0 .6-.3 1.2-.8 1.5-.6.3-1.4.5-2.5.1a8.4 8.4 0 0 1-4.4-4.2c-.5-1-.4-2.4 0-3.2Z" fill="currentColor"/></svg></a>
+</nav>
+<p class="sr" id="live" aria-live="polite"></p>
+
+<script>
+const CONFIG = {
+  whatsapp: '', // WhatsApp que recebe os contatos: DDI + DDD + número, só dígitos. Ex.: '5511974102286'. Vazio: o visitante escolhe o contato.
+  demo: true,   // true mostra o selo "Site demonstrativo". Use false quando o conteúdo for real.
+};
+document.documentElement.lang = 'pt-BR';
+
+(() => {
+  'use strict';
+  const d = document, root = d.documentElement;
+  root.classList.add('js');
+  const $ = (s, c = d) => c.querySelector(s);
+  const $$ = (s, c = d) => Array.from(c.querySelectorAll(s));
+  if (!CONFIG.demo) $$('[data-demo]').forEach((el) => el.remove());
+  const mq = (q) => window.matchMedia(q).matches;
+  const reduce = mq('(prefers-reduced-motion: reduce)');
+  const fine = mq('(hover: hover) and (pointer: fine)');
+  const live = $('#live');
+  const say = (t) => { live.textContent = ''; setTimeout(() => { live.textContent = t; }, 40); };
+
+  /* ---------- WhatsApp links ---------- */
+  const waHref = (msg) => (CONFIG.whatsapp ? 'https://wa.me/' + CONFIG.whatsapp : 'https://wa.me/') + '?text=' + encodeURIComponent(msg);
+  $$('[data-wa]').forEach((a) => { a.href = waHref(a.dataset.wa); });
+
+  /* ---------- header & mobile menu ---------- */
+  const hd = $('#hd');
+  const menu = $('#menu'), mBtn = $('#menu-btn'), mClose = $('#menu-close');
+  let lastFocus = null;
+  const openMenu = () => {
+    lastFocus = d.activeElement;
+    menu.classList.add('is-open');
+    mBtn.setAttribute('aria-expanded', 'true');
+    root.style.overflow = 'hidden';
+    setTimeout(() => mClose.focus(), 60);
+  };
+  const closeMenu = (back = true) => {
+    menu.classList.remove('is-open');
+    mBtn.setAttribute('aria-expanded', 'false');
+    root.style.overflow = '';
+    if (back && lastFocus) lastFocus.focus();
+  };
+  mBtn.addEventListener('click', openMenu);
+  mClose.addEventListener('click', () => closeMenu());
+  $$('a', menu).forEach((a) => a.addEventListener('click', () => closeMenu(false)));
+  d.addEventListener('keydown', (e) => { if (e.key === 'Escape' && menu.classList.contains('is-open')) closeMenu(); });
+  menu.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab') return;
+    const f = $$('a[href], button', menu);
+    const first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && d.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && d.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  /* ---------- mapa facial ---------- */
+  const SPEC = ['Duração da sessão', 'Volta à rotina', 'Quando aparece', 'Quanto dura', 'Sessões'];
+  const AH = (dura) => ({ nome: 'Ácido hialurônico', motivo: 'Preenchimento', v: ['40 a 60 min', 'No mesmo dia, com inchaço leve por 2 a 5 dias', 'Na hora; resultado final em 15 a 30 dias', dura, '1 sessão + retorno em 15 dias'] });
+  const OPT = {
+    toxina: { nome: 'Toxina botulínica', motivo: 'Toxina botulínica', v: ['20 a 30 min', 'No mesmo dia. Evite deitar e fazer exercício por 4 h', 'Começa a agir em 3 a 5 dias; efeito pleno em cerca de 15 dias', '4 a 6 meses', '1 sessão + retorno em 15 dias'] },
+    laser: { nome: 'Laser fracionado', motivo: 'Pele e laser', v: ['45 a 60 min, com anestésico tópico', 'Vermelhidão por 3 a 7 dias, conforme a técnica', 'Textura mais lisa a partir de 30 dias', 'Longa duração, com fotoproteção diária', '1 a 3, com intervalo de 30 dias'] },
+    peeling: { nome: 'Peeling químico', motivo: 'Pele e laser', v: ['30 min', 'No mesmo dia, com descamação leve por 2 a 5 dias', 'Entre 2 e 4 semanas', 'Meses, com fotoproteção diária', '3, com intervalo de 15 a 30 dias'] },
+    bio: { nome: 'Bioestimulador de colágeno', motivo: 'Bioestimulador', v: ['30 a 45 min', 'No mesmo dia, com orientações para casa', 'Progressivo, entre 60 e 90 dias', 'De 18 a 24 meses', '2 a 3, com intervalo de 30 a 45 dias'] },
+    ultra: { nome: 'Ultrassom microfocado', motivo: 'Avaliação facial completa', v: ['60 a 90 min', 'No mesmo dia', 'Progressivo, entre 60 e 90 dias', 'Cerca de 1 ano', '1 sessão por ano'] },
+    ahOlheira: AH('12 a 18 meses'), ahMalar: AH('12 a 18 meses'), ahSulco: AH('9 a 12 meses'), ahLabio: AH('9 a 12 meses'), ahMand: AH('12 a 18 meses'),
+  };
+  const ZONAS = [
+    { nome: 'Testa', q: '“As linhas da testa ficam marcadas mesmo quando estou séria.”', n: 'São rugas de movimento: o músculo da testa trabalha o dia inteiro e a pele vai guardando a dobra. Uma dose baixa de toxina costuma suavizar as linhas sem travar a expressão.', o: ['toxina'] },
+    { nome: 'Entre as sobrancelhas', q: '“Vivem me perguntando se estou brava.”', n: 'O “11” entre as sobrancelhas vem da força de franzir. É\u00a0a região onde a toxina tem o efeito mais previsível, e onde pouca dose já faz diferença.', o: ['toxina'] },
+    { nome: 'Pés de galinha', q: '“O sorriso deixa marcas que não vão mais embora.”', n: 'As linhas ao lado dos olhos misturam movimento e pele fina. A toxina cuida do movimento; o laser, da textura que sobra quando o rosto está parado.', o: ['toxina', 'laser'] },
+    { nome: 'Olheiras', q: '“Pareço cansada mesmo depois de dormir oito horas.”', n: 'Em geral, a olheira é de sombra, quando falta volume logo abaixo do olho, ou de cor, quando há pigmento ou vasinhos aparentes. Cada uma pede um caminho, e a avaliação mostra qual é a sua.', o: ['ahOlheira', 'peeling'] },
+    { nome: 'Maçãs do rosto', q: '“Parece que o meu rosto desceu.”', n: 'Com o tempo, a gordura e o osso do terço médio perdem sustentação, e o que está abaixo acompanha. Repor um pouco de suporte nas maçãs costuma suavizar olheira e bigode chinês ao mesmo tempo.', o: ['ahMalar', 'bio'] },
+    { nome: 'Bigode chinês', q: '“O bigode chinês aparece até em foto sem sorrir.”', n: 'O sulco nasogeniano costuma ser consequência da perda de sustentação das maçãs do rosto. Muitas vezes ele suaviza quando tratamos essa região, sem preencher a dobra em si.', o: ['ahSulco', 'bio'] },
+    { nome: 'Lábios', q: '“Quero lábios hidratados e definidos. Maiores, não.”', n: 'Trabalhamos contorno, hidratação e simetria com pouco produto. O ponto de partida é o formato da sua boca; foto de referência entra só como conversa.', o: ['ahLabio'] },
+    { nome: 'Contorno da mandíbula', q: '“A linha do queixo ficou menos nítida.”', n: 'A definição da mandíbula depende de pele firme e de estrutura. Por isso combinamos estímulo de colágeno, ultrassom e, quando faz sentido, um pouco de volume.', o: ['bio', 'ultra', 'ahMand'] },
+    { nome: 'Pescoço', q: '“O pescoço entrega a idade antes do rosto.”', n: 'A pele do pescoço é fina e tem pouca gordura de suporte. O ultrassom microfocado age nas camadas profundas e o bioestimulador melhora a qualidade da pele.', o: ['ultra', 'bio'] },
+  ];
+  const hs = $$('.hs');
+  const zoneEl = $('#mp-zone'), countEl = $('#mp-count'), swap = $('#mp-swap');
+  const quoteEl = $('#mp-quote'), noteEl = $('#mp-note'), optsEl = $('#mp-opts'), specEl = $('#mp-spec');
+  let zi = 4, oi = 0, swapT = 0;
+  const mpPhoto = $('#mp-photo'), mpImg = $('img', mpPhoto);
+  const mpReady = () => mpPhoto.classList.add('is-ready');
+  if (mpImg.decode) mpImg.decode().then(mpReady, mpReady); else mpReady();
+  setTimeout(mpReady, 8000);
+
+  /* keep numbers, ranges and units on one line: '15 a 30 dias', '4 h' */
+  const nbsp = (s) => s.replace(/(\d+) (a|e) (\d+)/g, '$1\u00a0$2\u00a0$3').replace(/(\d+) (min|dias?|meses|h|semanas|ano)\b/g, '$1\u00a0$2');
+  const renderSpec = () => {
+    const o = OPT[ZONAS[zi].o[oi]];
+    specEl.innerHTML = SPEC.map((k, i) => '<div><dt>' + k + '</dt><dd>' + nbsp(o.v[i]) + '</dd></div>').join('');
+    $$('.mp-opt', optsEl).forEach((b, i) => { if (b.tagName === 'BUTTON') b.setAttribute('aria-pressed', String(i === oi)); });
+  };
+  const fill = () => {
+    const z = ZONAS[zi];
+    quoteEl.textContent = z.q;
+    noteEl.textContent = nbsp(z.n);
+    const many = z.o.length > 1;
+    optsEl.innerHTML = '<p class="lab">' + (many ? 'Opções mais indicadas' : 'Opção mais indicada') + '</p>' +
+      z.o.map((k, i) => many
+        ? '<button type="button" class="mp-opt" aria-pressed="' + (i === oi) + '" data-i="' + i + '">' + OPT[k].nome + '</button>'
+        : '<span class="mp-opt is-single">' + OPT[k].nome + '</span>').join('');
+    renderSpec();
+  };
+  const selectZone = (i, opts = {}) => {
+    zi = (i + ZONAS.length) % ZONAS.length; oi = 0;
+    mpPhoto.classList.add('is-touched');
+    hs.forEach((b, k) => b.setAttribute('aria-pressed', String(k === zi)));
+    zoneEl.textContent = ZONAS[zi].nome;
+    countEl.textContent = (zi + 1) + ' / ' + ZONAS.length;
+    clearTimeout(swapT);
+    if (reduce) fill();
+    else { swap.classList.add('is-out'); swapT = setTimeout(() => { fill(); swap.classList.remove('is-out'); }, 200); }
+    if (opts.focus) hs[zi].focus();
+    if (opts.reveal && !mq('(min-width: 900px)')) {
+      const r = $('#mp-panel').getBoundingClientRect();
+      const vh = window.innerHeight;
+      if (r.top > vh - 230) window.scrollBy({ top: r.top - (vh - 330), behavior: reduce ? 'auto' : 'smooth' });
+    }
+  };
+  hs.forEach((b, i) => {
+    b.addEventListener('click', () => selectZone(i, { reveal: true }));
+    b.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); selectZone(i + 1, { focus: true }); }
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); selectZone(i - 1, { focus: true }); }
+    });
+  });
+  $('#mp-prev').addEventListener('click', () => selectZone(zi - 1));
+  $('#mp-next').addEventListener('click', () => selectZone(zi + 1));
+  optsEl.addEventListener('click', (e) => {
+    const b = e.target.closest('button.mp-opt');
+    if (!b) return;
+    oi = +b.dataset.i;
+    if (reduce) renderSpec();
+    else {
+      specEl.style.opacity = '0';
+      setTimeout(() => { renderSpec(); specEl.style.opacity = ''; }, 160);
+    }
+  });
+  specEl.style.transition = 'opacity .3s cubic-bezier(.2,.7,.2,1)';
+
+  /* ---------- agendar ---------- */
+  const form = $('#agenda');
+  const MSG = {
+    'Avaliação facial completa': 'uma avaliação facial completa',
+    'Toxina botulínica': 'uma avaliação para toxina botulínica',
+    'Preenchimento': 'uma avaliação para preenchimento',
+    'Bioestimulador': 'uma avaliação para bioestimulador de colágeno',
+    'Pele e laser': 'uma avaliação de pele e laser',
+    'Corpo': 'uma avaliação corporal',
+    'Ainda não sei': 'uma avaliação (ainda não sei qual tratamento)',
+  };
+  const WD = ['dom', 'seg', 'ter', 'qua', 'qui', 'sex', 'sáb'];
+  const WDL = ['domingo', 'segunda-feira', 'terça-feira', 'quarta-feira', 'quinta-feira', 'sexta-feira', 'sábado'];
+  const WDS = ['Domingo', 'Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado'];
+  const pad = (n) => String(n).padStart(2, '0');
+  const iso = (t) => t.getFullYear() + '-' + pad(t.getMonth() + 1) + '-' + pad(t.getDate());
+  const easter = (y) => {
+    const a = y % 19, b = Math.floor(y / 100), c = y % 100, dd = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25), g = Math.floor((b - f + 1) / 3);
+    const h = (19 * a + b - dd - g + 15) % 30, i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7, m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const mo = Math.floor((h + l - 7 * m + 114) / 31), da = ((h + l - 7 * m + 114) % 31) + 1;
+    return new Date(y, mo - 1, da, 12);
+  };
+  const holidays = (y) => {
+    const map = new Map();
+    [['01-01', 'Ano-novo'], ['01-25', 'Aniversário de SP'], ['04-21', 'Tiradentes'], ['05-01', 'Dia do Trabalho'], ['07-09', 'Revolução de 32'], ['09-07', 'Independência'], ['10-12', 'N. Sra. Aparecida'], ['11-02', 'Finados'], ['11-15', 'República'], ['11-20', 'Consciência Negra'], ['12-25', 'Natal']]
+      .forEach(([k, v]) => map.set(y + '-' + k, v));
+    const e = easter(y);
+    [[-48, 'Carnaval'], [-47, 'Carnaval'], [-2, 'Sexta-feira Santa'], [60, 'Corpus Christi']].forEach(([off, v]) => { const t = new Date(e); t.setDate(t.getDate() + off); map.set(iso(t), v); });
+    return map;
+  };
+  const HOLY = new Date().getFullYear();
+  const HOL = new Map([...holidays(HOLY), ...holidays(HOLY + 1)]);
+  const hash = (s) => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return h >>> 0; };
+  const SLOTS = { wk: [9, 10, 11, 12, 14, 15, 16, 17, 18, 19], sat: [9, 10, 11, 12, 13, 14] };
+  const slotsFor = (day) => {
+    const list = day.w === 6 ? SLOTS.sat : SLOTS.wk;
+    let res = list.map((h) => ({ h, off: hash(day.iso + '@' + h) % 100 < 60 }));
+    if (res.filter((s) => !s.off).length < 2) res = res.map((s, i) => (i % 3 === 1 ? { h: s.h, off: false } : s));
+    return res;
+  };
+  const buildDays = () => {
+    const out = [], t = new Date();
+    t.setHours(12, 0, 0, 0);
+    const hol = HOL;
+    let open = 0, guard = 0;
+    while (open < 10 && guard < 40) {
+      t.setDate(t.getDate() + 1); guard++;
+      const w = t.getDay();
+      if (w === 0) continue;
+      const k = iso(t), closed = hol.get(k) || '';
+      if (!closed) open++;
+      out.push({ iso: k, w, dd: pad(t.getDate()), mm: pad(t.getMonth() + 1), closed });
+    }
+    return out;
+  };
+  const DAYS = buildDays();
+  const daysEl = $('#days'), slotsEl = $('#slots');
+  const state = { step: 1, day: null, hora: null, regiao: '' };
+
+  daysEl.innerHTML = DAYS.map((x, i) => {
+    const free = x.closed ? 0 : slotsFor(x).filter((s) => !s.off).length;
+    const note = x.closed ? 'Feriado' : (x.w === 6 ? 'até 15h' : free + (free === 1 ? ' livre' : ' livres'));
+    const aria = WDL[x.w] + ', ' + x.dd + '/' + x.mm + (x.closed ? ', fechado: ' + x.closed : ', ' + free + ' horários livres');
+    return '<div class="day"><input type="radio" name="dia" id="d' + i + '" value="' + x.iso + '"' + (x.closed ? ' disabled' : '') + ' aria-label="' + aria + '"><label for="d' + i + '" title="' + (x.closed || '') + '"><b>' + WD[x.w] + '</b><span>' + x.dd + '/' + x.mm + '</span><small>' + note + '</small></label></div>';
+  }).join('');
+
+  const renderSlots = () => {
+    const day = DAYS.find((x) => x.iso === state.day);
+    if (!day) { slotsEl.innerHTML = ''; return; }
+    $('#slots-t').textContent = 'Horários livres · ' + WD[day.w] + ', ' + day.dd + '/' + day.mm;
+    slotsEl.innerHTML = slotsFor(day).map((s) => {
+      const id = 'h' + day.iso.replace(/-/g, '') + s.h;
+      return '<div class="chip"><input type="radio" name="hora" id="' + id + '" value="' + s.h + '"' + (s.off ? ' disabled' : '') + (state.hora === s.h && !s.off ? ' checked' : '') + ' aria-label="' + s.h + 'h' + (s.off ? ', indisponível' : '') + '"><label for="' + id + '">' + s.h + 'h</label></div>';
+    }).join('');
+  };
+  daysEl.addEventListener('change', (e) => {
+    if (e.target.name !== 'dia') return;
+    state.day = e.target.value; state.hora = null; $('#err-2').textContent = '';
+    renderSlots();
+  });
+  slotsEl.addEventListener('change', (e) => {
+    if (e.target.name !== 'hora') return;
+    state.hora = +e.target.value; $('#err-2').textContent = '';
+  });
+  const firstOpen = DAYS.findIndex((x) => !x.closed);
+  if (firstOpen > -1) { $('#d' + firstOpen).checked = true; state.day = DAYS[firstOpen].iso; renderSlots(); }
+
+  /* region coming from the face map */
+  const regiaoBox = $('#regiao');
+  const setRegiao = (nome) => {
+    state.regiao = nome || '';
+    regiaoBox.hidden = !nome;
+    if (nome) $('#regiao-n').textContent = nome;
+  };
+  $('#regiao-x').addEventListener('click', () => { setRegiao(''); say('Região removida do pedido.'); });
+  /* a face region makes no sense on a body request */
+  $('#motivos').addEventListener('change', (e) => {
+    if (e.target.name === 'motivo' && e.target.value === 'Corpo' && state.regiao) { setRegiao(''); say('Região removida do pedido.'); }
+  });
+  const setMotivo = (v) => { const r = $$('input[name="motivo"]', form).find((x) => x.value === v); if (r) r.checked = true; };
+
+  /* steps */
+  const steps = [null, $('#st-1'), $('#st-2'), $('#st-3'), $('#st-4')];
+  const progLis = $$('#prog li');
+  const stepT = $('#ag-step-t');
+  const goStep = (n, focus = true) => {
+    state.step = n;
+    steps.forEach((s, i) => { if (!s) return; s.hidden = i !== n; s.classList.toggle('is-in', i === n); });
+    progLis.forEach((li, i) => { li.classList.toggle('is-done', i + 1 < n); li.classList.toggle('is-now', i + 1 === n); });
+    if (n !== 2) $('#err-2').textContent = '';
+    stepT.textContent = n < 4 ? 'Etapa ' + n + ' de 3' : 'Pronto';
+    if (focus) {
+      steps[n].focus({ preventScroll: true });
+      const r = form.getBoundingClientRect();
+      if (r.top < 0 || r.top > window.innerHeight * 0.6) window.scrollTo({ top: window.scrollY + r.top - (hd.offsetHeight + 16), behavior: reduce ? 'auto' : 'smooth' });
+    }
+  };
+  const nomeIn = $('#f-nome'), waIn = $('#f-wa');
+  const maskWa = (v) => {
+    let n = v.replace(/\D/g, '');
+    if (n.length > 11 && n.startsWith('55')) n = n.slice(2);
+    n = n.replace(/^0+/, '').slice(0, 11);
+    if (n.length <= 2) return n.length ? '(' + n : '';
+    if (n.length <= 6) return '(' + n.slice(0, 2) + ') ' + n.slice(2);
+    if (n.length <= 10) return '(' + n.slice(0, 2) + ') ' + n.slice(2, 6) + '-' + n.slice(6);
+    return '(' + n.slice(0, 2) + ') ' + n.slice(2, 7) + '-' + n.slice(7);
+  };
+  waIn.addEventListener('input', () => { waIn.value = maskWa(waIn.value); if (waIn.getAttribute('aria-invalid')) validate3(true); });
+  nomeIn.addEventListener('input', () => { if (nomeIn.getAttribute('aria-invalid')) validate3(true); });
+  const setErr = (input, el, msg) => {
+    el.textContent = msg;
+    if (msg) input.setAttribute('aria-invalid', 'true'); else input.removeAttribute('aria-invalid');
+  };
+  function validate3(quiet) {
+    const nome = nomeIn.value.trim().replace(/\s+/g, ' ');
+    const digits = waIn.value.replace(/\D/g, '');
+    let ok = true;
+    if (nome.length < 2 || !/[A-Za-zÀ-ÿ]/.test(nome)) { setErr(nomeIn, $('#err-nome'), 'Conte como podemos chamar você.'); ok = false; }
+    else setErr(nomeIn, $('#err-nome'), '');
+    if (digits.length !== 11) { setErr(waIn, $('#err-wa'), 'Confira o número: são o DDD e mais 9 dígitos.'); ok = false; }
+    else if (digits[2] !== '9') { setErr(waIn, $('#err-wa'), 'Para WhatsApp, use um celular: depois do DDD, o número começa com 9.'); ok = false; }
+    else setErr(waIn, $('#err-wa'), '');
+    if (!ok && !quiet) (nomeIn.getAttribute('aria-invalid') ? nomeIn : waIn).focus();
+    return ok;
+  }
+  form.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-go]');
+    if (!b) return;
+    const n = +b.dataset.go;
+    if (n === 3 && state.step === 2 && !state.hora) { $('#err-2').textContent = 'Escolha um horário para continuar.'; return; }
+    goStep(n);
+  });
+  /* the reply line follows the clock: at night or on a closed day it says when reception answers */
+  const replyNote = (now = new Date()) => {
+    const base = 'A mensagem abre pronta no seu WhatsApp. É\u00a0só enviar: a recepção responde por lá ';
+    const openDay = (t) => t.getDay() !== 0 && !HOL.has(iso(t));
+    const h = now.getHours() + now.getMinutes() / 60;
+    const closes = now.getDay() === 6 ? 15 : 20;
+    if (openDay(now) && h >= 9 && h < closes) return base + 'para confirmar o horário.';
+    if (openDay(now) && h < 9) return base + 'hoje, a partir das 9h, para confirmar o horário.';
+    const t = new Date(now); t.setHours(12, 0, 0, 0);
+    for (let i = 1; i < 15; i++) {
+      t.setDate(t.getDate() + 1);
+      if (openDay(t)) return base + (i === 1 ? 'amanhã' : t.getDay() === 6 ? 'no sábado' : 'na ' + WDL[t.getDay()]) + ', a partir das 9h, para confirmar o horário.';
+    }
+    return base + 'para confirmar o horário.';
+  };
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (state.step !== 3) return;
+    if (!validate3(false)) return;
+    const motivo = (form.querySelector('input[name="motivo"]:checked') || {}).value || 'Avaliação facial completa';
+    const day = DAYS.find((x) => x.iso === state.day);
+    const nome = nomeIn.value.trim().replace(/\s+/g, ' ');
+    const dia = day.dd + '/' + day.mm + ' (' + WDL[day.w] + ')';
+    const hora = state.hora + 'h';
+    const msg = 'Olá! Sou ' + nome + '. Gostaria de agendar ' + MSG[motivo] + ' na Nuance em ' + dia + ', às ' + hora + '.' + (state.regiao ? ' Região que mais me incomoda: ' + state.regiao.toLowerCase() + '.' : '');
+    const rows = [['Motivo', motivo + (state.regiao ? ' · ' + state.regiao : '')], ['Dia', WDL[day.w].replace(/^./, (c) => c.toUpperCase()) + ', ' + day.dd + '/' + day.mm], ['Horário', hora], ['Nome', nome], ['WhatsApp', waIn.value]];
+    const resumo = $('#resumo');
+    resumo.innerHTML = '';
+    rows.forEach(([k, v]) => { const div = d.createElement('div'); const dt = d.createElement('dt'); const dd = d.createElement('dd'); dt.textContent = k; dd.textContent = v; div.append(dt, dd); resumo.append(div); });
+    $('#wa-go').href = waHref(msg);
+    $('#ag-when').textContent = WDS[day.w] + ', ' + day.dd + '/' + day.mm + ' · ' + hora;
+    $('#done-when').textContent = replyNote();
+    goStep(4);
+  });
+
+  /* links that preselect a reason */
+  $('#mp-cta').addEventListener('click', () => {
+    const z = ZONAS[zi], o = OPT[z.o[oi]];
+    setMotivo(o.motivo); setRegiao(z.nome); goStep(1, false);
+    say('Motivo selecionado: ' + o.motivo.toLowerCase() + '. Região: ' + z.nome.toLowerCase() + '.');
+  });
+  $$('[data-motivo]').forEach((a) => a.addEventListener('click', () => { setMotivo(a.dataset.motivo); setRegiao(''); goStep(1, false); }));
+
+  /* ---------- copy buttons ---------- */
+  $$('.copy').forEach((b) => b.addEventListener('click', async () => {
+    let ok = false;
+    try { await navigator.clipboard.writeText(b.dataset.copy); ok = true; } catch (err) { ok = false; }
+    if (!ok) {
+      const el = d.getElementById(b.dataset.target);
+      if (el) { const r = d.createRange(); r.selectNodeContents(el); const s = window.getSelection(); s.removeAllRanges(); s.addRange(r); }
+    }
+    b.textContent = ok ? 'Copiado' : 'Selecionado';
+    say(ok ? 'Número copiado.' : 'Número selecionado. Agora é só copiar.');
+    setTimeout(() => { b.textContent = 'Copiar'; }, 1800);
+  }));
+
+  /* ---------- FAQ ---------- */
+  $$('.faq-item').forEach((item) => {
+    const b = $('button', item);
+    b.addEventListener('click', () => {
+      const open = b.getAttribute('aria-expanded') === 'true';
+      b.setAttribute('aria-expanded', String(!open));
+      item.classList.toggle('is-open', !open);
+    });
+  });
+
+  /* ---------- treatment index: cursor-following preview (desktop) ---------- */
+  if (fine && !reduce) {
+    const prev = $('#tx-prev'), pimg = $('img', prev);
+    let tx = 0, ty = 0, x = 0, y = 0, raf = 0, on = false, warmed = false;
+    const loop = () => {
+      x += (tx - x) * 0.17; y += (ty - y) * 0.17;
+      prev.style.transform = 'translate3d(' + x.toFixed(1) + 'px,' + y.toFixed(1) + 'px,0)';
+      raf = (on || Math.abs(tx - x) + Math.abs(ty - y) > 0.6) ? requestAnimationFrame(loop) : 0;
+    };
+    /* the preview sits above the hovered row (below it when the header is in the way), inside the name column, so it never hides the text being read */
+    const aim = (e, row) => {
+      row = row || (e.target.closest && e.target.closest('.tx-row'));
+      if (!row) return;
+      const w = prev.offsetWidth, h = prev.offsetHeight;
+      const rr = row.getBoundingClientRect();
+      const nameW = row.firstElementChild.getBoundingClientRect().width;
+      tx = Math.min(Math.max(e.clientX - w / 2, rr.left), rr.left + Math.max(nameW - w, 0));
+      ty = rr.top - h - 12;
+      if (ty < hd.offsetHeight + 12) ty = rr.bottom + 12;
+    };
+    $$('.tx-row').forEach((r) => r.addEventListener('mouseenter', (e) => {
+      if (!warmed) { warmed = true; $$('.tx-row').forEach((q) => { const im = new Image(); im.src = q.dataset.img; }); }
+      if (pimg.getAttribute('src') !== r.dataset.img) pimg.src = r.dataset.img;
+      pimg.style.objectPosition = r.dataset.pos || '50% 50%';
+      prev.classList.toggle('is-duo', r.hasAttribute('data-duo'));
+      aim(e, r);
+      if (!on) { x = tx; y = ty; on = true; prev.classList.add('is-on'); }
+      if (!raf) raf = requestAnimationFrame(loop);
+    }));
+    $$('.tx-list').forEach((list) => {
+      list.addEventListener('mousemove', (e) => { if (on) aim(e); });
+      list.addEventListener('mouseleave', () => { on = false; prev.classList.remove('is-on'); });
+    });
+  }
+
+  /* ---------- magnetic buttons (desktop) ---------- */
+  if (fine && !reduce) {
+    $$('.magnet').forEach((el) => {
+      el.addEventListener('mousemove', (e) => {
+        const r = el.getBoundingClientRect();
+        el.style.translate = (((e.clientX - r.left) / r.width - 0.5) * 12).toFixed(1) + 'px ' + (((e.clientY - r.top) / r.height - 0.5) * 10).toFixed(1) + 'px';
+      });
+      el.addEventListener('mouseleave', () => { el.style.translate = ''; });
+    });
+  }
+
+  /* ---------- scroll: header, parallax, step rail ---------- */
+  const par = reduce ? [] : $$('[data-parallax]');
+  const track = $('#et-track'), fillEl = $('#et-fill');
+  let ticking = false;
+  const onScroll = () => {
+    ticking = false;
+    const vh = window.innerHeight;
+    hd.classList.toggle('is-scrolled', window.scrollY > 8);
+    for (const el of par) {
+      const r = el.parentElement.getBoundingClientRect();
+      if (r.bottom < -80 || r.top > vh + 80) continue;
+      const p = (r.top + r.height / 2 - vh / 2) / (vh / 2 + r.height / 2);
+      el.style.translate = '0 ' + (-p * (+el.dataset.parallax || 5)).toFixed(2) + '%';
+    }
+    const t = track.getBoundingClientRect();
+    const p = Math.min(1, Math.max(0, (vh * 0.85 - t.top) / (t.height + vh * 0.35)));
+    fillEl.style.setProperty('--p', reduce ? 1 : p.toFixed(3));
+  };
+  const req = () => { if (!ticking) { ticking = true; requestAnimationFrame(onScroll); } };
+  window.addEventListener('scroll', req, { passive: true });
+  window.addEventListener('resize', req);
+  onScroll();
+
+  /* ---------- active nav & mobile bar ---------- */
+  if ('IntersectionObserver' in window) {
+    const links = $$('.nav a');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((en) => {
+        if (!en.isIntersecting) return;
+        links.forEach((a) => a.setAttribute('aria-current', String(a.getAttribute('href') === '#' + en.target.id)));
+      });
+    }, { rootMargin: '-45% 0px -50% 0px' });
+    /* sections outside the nav are observed too, so no link stays underlined after you leave its section */
+    ['topo', 'principios', 'mapa', 'tratamentos', 'etapas', 'clinica', 'equipe', 'perguntas', 'agendar'].forEach((id) => io.observe(d.getElementById(id)));
+    const bar = $('#bar');
+    const io2 = new IntersectionObserver((entries) => {
+      entries.forEach((en) => bar.classList.toggle('is-hidden', en.isIntersecting));
+    }, { threshold: 0.12 });
+    io2.observe(form);
+  }
+})();
+</script>
+<!-- Ao publicar: troque "image" abaixo pela URL absoluta da imagem e acrescente "url": "https://seu-dominio/". -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Nuance Estética Avançada",
+  "description": "Clínica de estética médica nos Jardins, em São Paulo, com direção técnica de uma dermatologista. Avaliação de 50 minutos e plano por escrito.",
+  "slogan": "O melhor resultado é o que ninguém aponta.",
+  "image": "assets/hero.jpg",
+  "telephone": "+55-11-3062-4180",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "WhatsApp",
+    "telephone": "+55-11-97410-2286"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Haddock Lobo, 1307",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "01414-003",
+    "addressCountry": "BR"
+  },
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=Rua%20Haddock%20Lobo%2C%201307%20-%20Cerqueira%20C%C3%A9sar%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001414-003",
+  "areaServed": {
+    "@type": "City",
+    "name": "São Paulo"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "09:00", "closes": "20:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "15:00" }
+  ],
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Manobrista na porta, durante todo o horário de atendimento", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "4 salas de procedimento, com luz natural e pia própria", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Sala de recuperação para descansar antes de ir embora", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "8 min a pé da estação Oscar Freire, Linha 4-Amarela", "value": true }
+  ],
+  "medicalSpecialty": "Dermatology",
+  "isAcceptingNewPatients": true,
+  "knowsAbout": [
+    "Estética médica",
+    "Rejuvenescimento facial",
+    "Lasers",
+    "Harmonização Orofacial",
+    "Peelings",
+    "Microagulhamento",
+    "Protocolos de melasma"
+  ],
+  "employee": [
+    {
+      "@type": "Person",
+      "name": "Dra. Helena Duarte",
+      "jobTitle": "Médica dermatologista, responsável técnica",
+      "knowsAbout": ["Rejuvenescimento facial", "Lasers"]
+    },
+    {
+      "@type": "Person",
+      "name": "Dra. Camila Rezende",
+      "jobTitle": "Cirurgiã-dentista, especialista em Harmonização Orofacial",
+      "knowsAbout": ["Lábios", "Contorno", "Bioestimuladores"]
+    },
+    {
+      "@type": "Person",
+      "name": "Juliana Prado",
+      "jobTitle": "Biomédica esteta",
+      "knowsAbout": ["Peelings", "Microagulhamento", "Protocolos de melasma"]
+    }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tratamentos",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Avaliação facial completa",
+          "description": "50 minutos com análise do rosto em repouso e em movimento, fotos padronizadas e um plano por escrito para levar para casa."
+        }
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Rosto",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Toxina botulínica", "description": "Linhas de expressão na testa, entre as sobrancelhas e ao redor dos olhos" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Preenchimento com ácido hialurônico", "description": "Volume e sustentação em olheiras, maçãs do rosto, sulcos, lábios e mandíbula" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bioestimuladores de colágeno", "description": "Flacidez e qualidade da pele, com resultado progressivo" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Skinbooster", "description": "Hidratação profunda, viço e linhas finas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fios de PDO", "description": "Sustentação leve e estímulo de colágeno no terço médio do rosto" } }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Pele",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Laser fracionado", "description": "Textura, poros dilatados, manchas e cicatrizes de acne" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Peeling químico", "description": "Manchas, oleosidade e renovação da camada superficial" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Microagulhamento", "description": "Cicatrizes de acne, poros e firmeza da pele" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Limpeza de pele profunda", "description": "Cravos, oleosidade e preparo da pele para outros tratamentos" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratamento de melasma", "description": "Manchas acastanhadas, com plano combinado e manutenção em casa" } }
+        ]
+      },
+      {
+        "@type": "OfferCatalog",
+        "name": "Corpo",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Ultrassom microfocado corporal", "description": "Flacidez em abdome, braços e parte interna das coxas" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Radiofrequência", "description": "Firmeza da pele e aspecto da celulite" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Criolipólise", "description": "Gordura localizada que resiste a dieta e exercício" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tratamento de estrias", "description": "Estrias vermelhas e brancas, com laser e microagulhamento" } }
+        ]
+      }
+    ]
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Vou ficar com cara de feita?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A proposta é justamente o contrário. Trabalhamos com o mínimo eficaz e revisamos tudo no retorno de 15 dias. Se alguém comentar, o mais provável é que pergunte se você descansou." }
+    },
+    {
+      "@type": "Question",
+      "name": "A avaliação é paga?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. São 50 minutos com análise do rosto em repouso e em movimento, fotos padronizadas e um plano por escrito para levar para casa. A recepção informa o valor pelo WhatsApp antes de você marcar." }
+    },
+    {
+      "@type": "Question",
+      "name": "Dói?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pouco. Usamos anestésico tópico e, quando a região permite, cânula no lugar da agulha. A maioria descreve como uma picada rápida ou uma pressão. Você pode pedir pausa a qualquer momento." }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso trabalhar no dia seguinte?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Na maioria dos casos, sim. Com toxina, você volta no mesmo dia; preenchimentos podem deixar um inchaço leve por 2 a 5 dias, e laser ou peeling pedem alguns dias de vermelhidão ou descamação. O plano por escrito já indica o melhor momento, inclusive se houver um evento marcado." }
+    },
+    {
+      "@type": "Question",
+      "name": "Quanto tempo dura o botox?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A toxina botulínica dura de 4 a 6 meses. Ela começa a agir em 3 a 5 dias e chega ao efeito pleno em cerca de 15, que é quando fazemos o retorno. Com aplicações regulares, muitas pacientes conseguem espaçar as sessões." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês fazem só o que eu pedir?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Fazemos o que fizer sentido para o seu rosto, e às vezes isso é menos do que você pediu. Se não houver indicação, dizemos com todas as letras. Já houve avaliação que terminou só com uma rotina de cuidados para casa." }
+    },
+    {
+      "@type": "Question",
+      "name": "Atendem homens?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, e cada vez mais. O rosto masculino pede outros pontos e outras doses: preservamos ângulos marcados e sobrancelhas mais retas, para que o resultado não suavize demais os traços." }
+    }
+  ]
+}
+</script>
+</body>
+</html>

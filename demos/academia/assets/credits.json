@@ -1,0 +1,20 @@
+[
+  {"file": "hero.jpg", "slot": "hero", "unsplashId": "photo-1599058917212-d750089bc07e", "source": "https://images.unsplash.com/photo-1599058917212-d750089bc07e"},
+  {"file": "salao.jpg", "slot": "salao", "unsplashId": "photo-1623874514711-0f321325f318", "source": "https://images.unsplash.com/photo-1623874514711-0f321325f318"},
+  {"file": "anilhas.jpg", "slot": "anilhas", "unsplashId": "photo-1517838277536-f5f99be501cd", "source": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd"},
+  {"file": "cross.jpg", "slot": "cross", "unsplashId": "photo-1597076545399-91a3ff0e71b3", "source": "https://images.unsplash.com/photo-1597076545399-91a3ff0e71b3"},
+  {"file": "bike.jpg", "slot": "bike", "unsplashId": "photo-1520877880798-5ee004e3f11e", "source": "https://images.unsplash.com/photo-1520877880798-5ee004e3f11e"},
+  {"file": "muaythai.jpg", "slot": "muaythai", "unsplashId": "photo-1590556409324-aa1d726e5c3c", "source": "https://images.unsplash.com/photo-1590556409324-aa1d726e5c3c"},
+  {"file": "funcional.jpg", "slot": "funcional", "unsplashId": "photo-1533681904393-9ab6eee7e408", "source": "https://images.unsplash.com/photo-1533681904393-9ab6eee7e408"},
+  {"file": "pilates.jpg", "slot": "pilates", "unsplashId": "photo-1591258370814-01609b341790", "source": "https://images.unsplash.com/photo-1591258370814-01609b341790"},
+  {"file": "mobilidade.jpg", "slot": "mobilidade", "unsplashId": "photo-1593810450967-f9c42742e326", "source": "https://images.unsplash.com/photo-1593810450967-f9c42742e326"},
+  {"file": "musculacao.jpg", "slot": "musculacao", "unsplashId": "photo-1544033527-b192daee1f5b", "source": "https://images.unsplash.com/photo-1544033527-b192daee1f5b"},
+  {"file": "lpo.jpg", "slot": "lpo", "unsplashId": "photo-1574680096145-d05b474e2155", "source": "https://images.unsplash.com/photo-1574680096145-d05b474e2155"},
+  {"file": "coach-1.jpg", "slot": "coach-1", "unsplashId": "photo-1579758629938-03607ccdbaba", "source": "https://images.unsplash.com/photo-1579758629938-03607ccdbaba"},
+  {"file": "coach-2.jpg", "slot": "coach-2", "unsplashId": "photo-1571019613914-85f342c6a11e", "source": "https://images.unsplash.com/photo-1571019613914-85f342c6a11e"},
+  {"file": "coach-3.jpg", "slot": "coach-3", "unsplashId": "photo-1567013127542-490d757e51fc", "source": "https://images.unsplash.com/photo-1567013127542-490d757e51fc"},
+  {"file": "coach-4.jpg", "slot": "coach-4", "unsplashId": "photo-1550345332-09e3ac987658", "source": "https://images.unsplash.com/photo-1550345332-09e3ac987658"},
+  {"file": "extra-1.jpg", "slot": "extra (spare: professor no salão)", "unsplashId": "photo-1571019614242-c5c5dee9f50b", "source": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b"},
+  {"file": "extra-2.jpg", "slot": "extra (spare: detalhe magnésio)", "unsplashId": "photo-1595078475328-1ab05d0a6a0e", "source": "https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e"},
+  {"file": "og.jpg", "slot": "og:image (link preview, 1200x630, composed from hero.jpg + headline)", "unsplashId": "photo-1599058917212-d750089bc07e", "source": "https://images.unsplash.com/photo-1599058917212-d750089bc07e"}
+]

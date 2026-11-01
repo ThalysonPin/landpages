@@ -1,0 +1,26 @@
+# Libera todos os robôs de busca: Google, Bing e os das IAs (ChatGPT, Perplexity, Claude).
+# O Gemini e as respostas com IA do Google usam o mesmo robô da busca (Googlebot), então entram pela regra geral.
+# As demos ficam fora do Google pela linha "noindex" dentro de cada uma.
+# Os robôs das IAs não prometem respeitar essa linha, então a pasta das demos fica fechada para eles aqui,
+# para nenhuma IA aprender negócios fictícios como se fossem de verdade.
+# Este arquivo só funciona na raiz do domínio (https://seu-dominio/robots.txt).
+# Se o portfólio ficar numa subpasta, copie estas regras para o robots.txt da raiz e ajuste o caminho /demos/.
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+Disallow: /demos/
+Allow: /
+
+# Ao publicar, troque pelo endereço completo e tire o # do começo:
+# Sitemap: https://seu-dominio/sitemap.xml

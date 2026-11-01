@@ -1,0 +1,18 @@
+[
+  {"file": "hero.jpg", "slot": "hero", "unsplashId": "photo-1567336273898-ebbf9eb3c3bf", "source": "https://images.unsplash.com/photo-1567336273898-ebbf9eb3c3bf", "edit": "Recortado em 4:5 em torno do rosto, espelhado na horizontal e salvo em tons de cinza; a página tinge de rosa com mix-blend-mode multiply."},
+  {"file": "og-nuance.jpg", "slot": "og-image", "unsplashId": "photo-1567336273898-ebbf9eb3c3bf", "source": "https://images.unsplash.com/photo-1567336273898-ebbf9eb3c3bf", "edit": "Imagem de prévia de link (1200 x 630) composta com o retrato do hero e o título em Bodoni Moda."},
+  {"file": "mapa.jpg", "slot": "mapa", "unsplashId": "photo-1624574966266-1cdd65b74500", "source": "https://images.unsplash.com/photo-1624574966266-1cdd65b74500"},
+  {"file": "clinica-1.jpg", "slot": "clinica-1", "unsplashId": "photo-1567016376408-0226e4d0c1ea", "source": "https://images.unsplash.com/photo-1567016376408-0226e4d0c1ea"},
+  {"file": "clinica-3.jpg", "slot": "clinica-3", "unsplashId": "photo-1576426863848-c21f53c60b19", "source": "https://images.unsplash.com/photo-1576426863848-c21f53c60b19"},
+  {"file": "procedimento.jpg", "slot": "procedimento", "unsplashId": "photo-1552693673-1bf958298935", "source": "https://images.unsplash.com/photo-1552693673-1bf958298935"},
+  {"file": "textura.jpg", "slot": "textura", "unsplashId": "photo-1608068811588-3a67006b7489", "source": "https://images.unsplash.com/photo-1608068811588-3a67006b7489"},
+  {"file": "equipe-1.jpg", "slot": "equipe-1", "unsplashId": "photo-1573497019940-1c28c88b4f3e", "source": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e"},
+  {"file": "equipe-1-600.jpg", "slot": "equipe-1", "unsplashId": "photo-1573497019940-1c28c88b4f3e", "source": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e", "edit": "Versão de 600 px de largura do mesmo arquivo, para celulares (srcset)."},
+  {"file": "equipe-2.jpg", "slot": "equipe-2", "unsplashId": "photo-1567532939604-b6b5b0db2604", "source": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604"},
+  {"file": "equipe-2-600.jpg", "slot": "equipe-2", "unsplashId": "photo-1567532939604-b6b5b0db2604", "source": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604", "edit": "Versão de 600 px de largura do mesmo arquivo, para celulares (srcset)."},
+  {"file": "equipe-3.jpg", "slot": "equipe-3", "unsplashId": "photo-1611432579699-484f7990b127", "source": "https://images.unsplash.com/photo-1611432579699-484f7990b127"},
+  {"file": "equipe-3-600.jpg", "slot": "equipe-3", "unsplashId": "photo-1611432579699-484f7990b127", "source": "https://images.unsplash.com/photo-1611432579699-484f7990b127", "edit": "Versão de 600 px de largura do mesmo arquivo, para celulares (srcset)."},
+  {"file": "extra-1.jpg", "slot": "extra", "unsplashId": "photo-1614283233556-f35b0c801ef1", "source": "https://images.unsplash.com/photo-1614283233556-f35b0c801ef1"},
+  {"file": "extra-2.jpg", "slot": "extra", "unsplashId": "photo-1573461160327-b450ce3d8e7f", "source": "https://images.unsplash.com/photo-1573461160327-b450ce3d8e7f"},
+  {"file": "extra-3.jpg", "slot": "extra", "unsplashId": "photo-1590439471364-192aa70c0b53", "source": "https://images.unsplash.com/photo-1590439471364-192aa70c0b53"}
+]
