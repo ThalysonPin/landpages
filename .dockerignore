@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!deploy/
+!deploy/nginx.conf
+!portfolio/
+!portfolio/**
+!demos/
+!demos/**
+**/.DS_Store
+**/.env*

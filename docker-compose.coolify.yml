@@ -1,0 +1,14 @@
+services:
+  landpages:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      coolify-edge:
+        aliases:
+          - landpages
+
+networks:
+  coolify-edge:
+    external: true
